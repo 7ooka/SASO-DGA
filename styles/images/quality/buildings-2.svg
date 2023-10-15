@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 78 78">
+  <g id="buildings-2" transform="translate(-1406 -2180)">
+    <circle id="Ellipse_11867" data-name="Ellipse 11867" cx="39" cy="39" r="39" transform="translate(1406 2180)" fill="#f5f7fa"/>
+    <g id="buildings-2_twotone" data-name="buildings-2/twotone" transform="translate(1415 2189)">
+      <g id="vuesax_twotone_buildings-2" data-name="vuesax/twotone/buildings-2">
+        <g id="buildings-2-2" data-name="buildings-2">
+          <path id="Vector" d="M11.75,40H5.375C1.8,40,0,38.2,0,34.625V5.375C0,1.8,1.8,0,5.375,0h10.75C19.7,0,21.5,1.8,21.5,5.375V10" transform="translate(5 5)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" opacity="0.4"/>
+          <path id="Vector-2" data-name="Vector" d="M26.675,6.05v27.9c0,4.025-2,6.05-6.025,6.05H6.05C2.025,40,0,37.975,0,33.95V6.05C0,2.025,2.025,0,6.05,0h14.6C24.675,0,26.675,2.025,26.675,6.05Z" transform="translate(16.75 15)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+          <path id="Vector-3" data-name="Vector" d="M0,10V5.375C0,1.8,1.8,0,5.375,0h10.75C19.7,0,21.5,1.8,21.5,5.375v29.25C21.5,38.2,19.7,40,16.125,40h-6.2" transform="translate(33.5 5)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" opacity="0.4"/>
+          <path id="Vector-4" data-name="Vector" d="M0,0H10" transform="translate(25 27.5)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" opacity="0.4"/>
+          <path id="Vector-5" data-name="Vector" d="M0,0H10" transform="translate(25 35)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" opacity="0.4"/>
+          <path id="Vector-6" data-name="Vector" d="M0,7.5V0" transform="translate(30 47.5)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+          <path id="Vector-7" data-name="Vector" d="M0,0H60V60H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

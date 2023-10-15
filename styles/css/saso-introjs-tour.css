@@ -1,0 +1,128 @@
+/*----intro js custom css ---*/
+.btn-tour {
+
+position: fixed;
+
+z-index: 1000;
+
+right: -135px;
+
+bottom: 20%;
+
+background: #0e0e0e;
+
+border: 2px #fff solid;
+
+color: #fff!important;
+
+padding: 10px 45px 10px 10px;
+
+border-radius: 15px;
+
+font: 16px fontReg, arial, sans-serif;
+
+-webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+
+box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+
+-webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+[lang="en-US"] .btn-tour{
+	left: -115px;
+	right:auto;
+	padding: 15px 10px 15px 45px;
+}
+
+[lang="en-US"] .btn-tour:hover{
+	left: -15px;
+	right:auto;
+}
+
+.btn-tour:hover {
+  right:-15px;
+  color: #fff;
+  background: #222;
+}
+.btn-tour i {
+  margin: 0px 10px;
+  font-size: 20px;
+}
+[lang="en-US"] .btn-tour i {
+  margin: 0px 10px 0 16px;
+  font-size: 20px;
+}
+.introjs-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+.introjs-helperLayer {
+  border-radius: 6px;
+  border: 0;
+}
+.darkhighlight {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px #000 solid;
+}
+.introjs-tooltip {
+  border-radius: 0;
+  background: #fff;
+  border: 2px #298ebd solid;
+}
+.introjs-tooltip h5 {
+  font: 1.2em fontBold, arial, sans-serif;
+  color: #333;
+}
+.introjs-tooltip p {
+  font: 13px fontReg, arial, sans-serif;
+  color: #666;
+}
+.introjs-tooltip .introjs-arrow.top {
+  left: 10px;
+  border-bottom-color: #298ebd;
+}
+.introjs-tooltip .introjs-arrow.left {
+  border-right-color: #298ebd;
+}
+.introjs-tooltip .introjs-arrow.right {
+  border-left-color: #298ebd;
+}
+.introjs-tooltip .introjs-arrow.bottom {
+  border-top-color: #298ebd;
+}
+.introjs-tooltip .introjs-tooltipbuttons {
+  margin-top: 10px;
+}
+.introjs-tooltip .introjs-button {
+  padding: 5px 8px;
+  font: 13px fontReg, arial, sans-serif;
+  color: #fff!important;
+  background: #18754D;
+  text-shadow: none;
+  border: 0;
+  border-radius: 0!important;
+  margin: 0 3px;
+  outline: 0!important;
+}
+.introjs-tooltip .introjs-button.introjs-disabled {
+  opacity: 0.5;
+}
+.introjs-tooltip .introjs-skipbutton {
+  background: #9A6A3C;
+}
+.introjs-tooltip .introjs-progress {
+  height: 5px;
+}
+.introjs-tooltip .introjs-progressbar {
+  float: right;
+  background-color: #298ebd;
+}
+
+[lang="en-US"] .introjs-tooltip .introjs-progressbar{
+	float: left;
+}
+
+
+@media (max-width:992px){
+  .btn-tour{display: none;}
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="printer" transform="translate(2 2)">
+    <rect id="Path" width="24" height="24" transform="translate(-2 -2)" fill="none"/>
+    <g id="Group_125671" data-name="Group 125671">
+      <path id="Path-2" data-name="Path" d="M0,7V0H12V7" transform="translate(4)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path-3" data-name="Path" d="M4,9H2A2,2,0,0,1,0,7V2A2,2,0,0,1,2,0H18a2,2,0,0,1,2,2V7a2,2,0,0,1-2,2H16" transform="translate(0 7)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle" width="12" height="8" transform="translate(4 12)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

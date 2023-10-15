@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="eyeFooter" transform="translate(-247 3)">
+    <circle id="Ellipse_11715" data-name="Ellipse 11715" cx="16" cy="16" r="16" transform="translate(247 -3)" fill="#fff"/>
+    <g id="eye" transform="translate(252 5)">
+      <path id="Path" d="M0,8S4,0,11,0,22,8,22,8s-4,8-11,8S0,8,0,8Z" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <circle id="Oval" cx="3" cy="3" r="3" transform="translate(8 5)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="clock" transform="translate(2 2)">
+    <rect id="Path" width="24" height="24" transform="translate(-2 -2)" fill="none"/>
+    <g id="clock-2" data-name="clock">
+      <circle id="Oval" cx="10" cy="10" r="10" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path-2" data-name="Path" d="M0,0V6L4,8" transform="translate(10 4)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

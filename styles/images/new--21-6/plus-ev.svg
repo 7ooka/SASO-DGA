@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="plus-ev" transform="translate(-1490 -270.5)">
+    <circle id="Ellipse_11722" data-name="Ellipse 11722" cx="25" cy="25" r="25" transform="translate(1490 270.5)" fill="#529c44" opacity="0.2"/>
+    <g id="add-circle_twotone" data-name="add-circle/twotone" transform="translate(1498 278.5)">
+      <g id="vuesax_twotone_add-circle" data-name="vuesax/twotone/add-circle">
+        <g id="add-circle">
+          <path id="Vector" d="M14.583,29.167A14.583,14.583,0,1,0,0,14.583,14.626,14.626,0,0,0,14.583,29.167Z" transform="translate(2.917 2.917)" fill="none" stroke="#529c44" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <g id="Group_687" data-name="Group 687" transform="translate(11.667 11.667)" opacity="0.4">
+            <path id="Vector-2" data-name="Vector" d="M0,0H11.667" transform="translate(0 5.833)" fill="none" stroke="#529c44" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <path id="Vector-3" data-name="Vector" d="M0,11.667V0" transform="translate(5.833)" fill="none" stroke="#529c44" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+          <path id="Vector-4" data-name="Vector" d="M0,0H35V35H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

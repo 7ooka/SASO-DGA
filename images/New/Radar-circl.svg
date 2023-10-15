@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="348.576" height="348.576" viewBox="0 0 348.576 348.576">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_1662" data-name="Path 1662" d="M156.394,0A156.394,156.394,0,1,1,0,156.394,156.394,156.394,0,0,1,156.394,0Z" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.969" y1="-0.602" x2="0.968" y2="0.236" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#45c6cf"/>
+      <stop offset="1" stop-color="#57d1f1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.04" y1="0.661" x2="0.917" y2="0.434" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#11cdf5"/>
+      <stop offset="1" stop-color="#00326b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1.038" y1="0.394" x2="-0.117" y2="0.626" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#20d2f8"/>
+      <stop offset="1" stop-color="#00327e"/>
+    </linearGradient>
+  </defs>
+  <g id="Radar-circl" transform="matrix(0.259, -0.966, 0.966, 0.259, -98.714, 331.906)">
+    <g id="Mask_Group_13" data-name="Mask Group 13" transform="translate(309.325 19.313) rotate(68)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_11322" data-name="Rectangle 11322" width="157.488" height="156.394" transform="translate(0 156.394)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_23334" data-name="Group 23334" transform="translate(212.937 212.937)">
+      <circle id="Ellipse_11716" data-name="Ellipse 11716" cx="10.567" cy="10.567" r="10.567" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+      <circle id="Ellipse_11717" data-name="Ellipse 11717" cx="8.19" cy="8.19" r="8.19" transform="translate(2.376 2.376)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

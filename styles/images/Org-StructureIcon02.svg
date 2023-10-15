@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.478" height="12.62" viewBox="0 0 17.478 12.62">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="17.478" height="12.62" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_30" data-name="Repeat Grid 30" clip-path="url(#clip-path)">
+    <g transform="translate(-1258.126 -537.962)">
+      <path id="Path_680" data-name="Path 680" d="M124.161,6.919a1.8,1.8,0,0,0,1.8,1.8,1.8,1.8,0,1,0,0-3.606,1.8,1.8,0,0,0-1.8,1.8m-.6,0a2.416,2.416,0,1,1,2.4,2.429,2.459,2.459,0,0,1-2.4-2.429" transform="translate(1140.876 533.472)" fill="#fff"/>
+      <path id="Path_681" data-name="Path 681" d="M121.641,10.019a1.8,1.8,0,1,0,1.8-1.8,1.8,1.8,0,0,0-1.8,1.8m-.6,0a2.416,2.416,0,1,1,2.4,2.429,2.426,2.426,0,0,1-2.4-2.429" transform="translate(1137.086 538.135)" fill="#fff"/>
+      <path id="Path_682" data-name="Path 682" d="M124.161,10.019a1.8,1.8,0,0,0,1.8,1.8,1.8,1.8,0,1,0-1.8-1.8m-.6,0a2.416,2.416,0,1,1,2.4,2.429,2.426,2.426,0,0,1-2.4-2.429" transform="translate(1140.876 538.135)" fill="#fff"/>
+      <path id="Path_683" data-name="Path 683" d="M126.691,10.019a1.817,1.817,0,0,0,1.828,1.8,1.8,1.8,0,0,0,0-3.606,1.817,1.817,0,0,0-1.828,1.8m-.6,0a2.416,2.416,0,1,1,2.429,2.429,2.431,2.431,0,0,1-2.429-2.429" transform="translate(1144.682 538.135)" fill="#fff"/>
+      <rect id="Rectangle_361" data-name="Rectangle 361" width="0.601" height="5.809" transform="matrix(0.764, -0.645, 0.645, 0.764, 1267.963, 542.312)" fill="#fff"/>
+      <path id="Path_684" data-name="Path 684" d="M122.43,10.512l3.756-4.482.476.376-3.756,4.482Z" transform="translate(1139.177 535.789)" fill="#fff"/>
+      <rect id="Rectangle_362" data-name="Rectangle 362" width="0.626" height="3.581" transform="translate(1266.565 542.445)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,85 @@
+// out: ../css/saso-introjs-tour.css, compress: false, sourceMap: false, autoprefixer: last 5 versions, groupmedia: true
+@import 'variables.less';
+
+/*----intro js custom css ---*/
+.btn-tour{
+    position: fixed;
+    z-index: 1000;
+    right:-15px;
+    top: 220px;
+    background: @basecolor1light;
+    border: 2px #fff solid;
+    color: #fff;
+    padding: 10px 45px 10px 10px;
+    border-radius: 15px;
+    font:16px @Fontreg;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    &:hover{
+        color: #fff;
+        background: lighten(@basecolor1light,5%);
+    }
+    i{
+        margin: 0 10px;
+        font-size: 20px;
+        
+    }
+}
+
+.introjs-overlay{
+    background: rgba(0, 0, 0, 0.9);
+}
+.introjs-helperLayer{border-radius: 6px;border: 0;}
+
+.darkhighlight{
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px #000 solid;
+    //box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+.introjs-tooltip{
+    border-radius: 0;
+    background: #fff;
+    border: 2px @bluecolor solid;
+
+    h5{
+        font: 1.2em @Fontbold;
+        color: @txtcolor1;
+    }
+    p{font:13px @Fontreg;color: @txtcolor3;}
+
+    .introjs-arrow.top{left:10px;
+        border-bottom-color: @bluecolor;
+    }
+    .introjs-arrow.left{
+        border-right-color: @bluecolor;
+    }
+    .introjs-arrow.right{
+        border-left-color: @bluecolor;
+    }
+    .introjs-arrow.bottom{
+        border-top-color: @bluecolor;
+    }
+    .introjs-tooltipbuttons{
+        margin-top: 10px;
+    }
+    .introjs-button{
+        padding: 5px 8px;
+        font:13px @Fontreg;
+        color: #fff;
+        background: @basecolor1;
+        text-shadow:none;
+        border: 0;
+        border-radius: 0!important;
+        margin: 0 3px;
+        outline: 0!important;
+        &.introjs-disabled{
+            opacity: .5;
+        }
+    }
+    .introjs-skipbutton{
+        background: @browncolor;
+    }
+    .introjs-progress{height: 5px;}
+    .introjs-progressbar{float: right;background-color: @bluecolor;}
+}
+

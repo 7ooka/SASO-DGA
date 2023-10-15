@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="play-vid" transform="translate(-208 -138)">
+    <circle id="Circle" cx="35" cy="35" r="35" transform="translate(208 138)" fill="#0096b6"/>
+    <path id="Icon" d="M25.557,12.929,4.36.4A2.874,2.874,0,0,0,0,2.885V27.942a2.888,2.888,0,0,0,4.36,2.487L25.557,17.9a2.888,2.888,0,0,0,0-4.974Z" transform="translate(231.895 157.165)" fill="#fff"/>
+  </g>
+</svg>

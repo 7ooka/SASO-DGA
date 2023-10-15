@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="486" height="182.65" viewBox="0 0 486 182.65">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <path id="news-card-art" d="M7323.945-950.434S7178.493-821.52,6920.016-821.52c-74.36-62.624-82.071-164.061-82.071-164.061v182.625l486,.025Z" transform="translate(-6837.945 985.582)" fill="url(#linear-gradient)"/>
+</svg>

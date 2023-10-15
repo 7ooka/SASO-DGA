@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.558" height="21.661" viewBox="0 0 22.558 21.661">
+  <g id="timePod" transform="translate(-94.308 0)">
+    <path id="Shape" d="M3655.865,150.742a25.59,25.59,0,0,0-10.007-13.3v0c-6.441,4.181-10.46,11.583-11.277,19.139a26.408,26.408,0,0,0,22.558-.02A30.975,30.975,0,0,0,3655.865,150.742Z" transform="translate(-3540.273 -137.439)" fill="#0096b6"/>
+    <g id="Icon" transform="translate(97.493 4.528)">
+      <path id="Path_55489" data-name="Path 55489" d="M13.539,8.27A5.27,5.27,0,1,1,8.27,3,5.27,5.27,0,0,1,13.539,8.27Z" fill="none" stroke="#f8f8f8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <path id="Path_55490" data-name="Path 55490" d="M18,9v3.162l2.108,1.054" transform="translate(-9.73 -3.892)" fill="none" stroke="#f8f8f8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+    </g>
+  </g>
+</svg>

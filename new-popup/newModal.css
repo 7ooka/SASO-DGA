@@ -1,0 +1,82 @@
+.licensedModal{}
+
+.licensedModal h3{
+    background-color: #F5F7FA;
+    border-radius: 8px;
+    line-height: 47px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+}
+
+.licensedModal .licensed-card{
+    display: flex;
+    margin-bottom: 20px;
+    padding-inline-end: 30px;
+}
+.licensedModal .licensed-card .img-box{
+    flex: 0 0 50px;
+    margin-inline-end: 12px;
+}
+.licensedModal .licensed-card .img-box img{
+    max-width: 100%;
+}
+
+
+
+.licensedModal .licensed-card .content-box{
+ 
+}
+.licensedModal .licensed-card .content-box h4{
+    font-size: 16px;
+    color: #58595B;
+    margin-bottom: 6px;
+    line-height: 20px;
+}
+.licensedModal .licensed-card .content-box p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0096B6;
+    padding: 0;
+    line-height: 25px;
+}
+.licensedModal .licensed-card .content-box .status{
+
+}
+.licensedModal .licensed-card .content-box .status p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    padding: 0;
+    line-height: 25px;
+
+}
+.licensedModal .licensed-card .content-box .status .active{
+    color: #529C44;
+}
+.licensedModal .licensed-card .content-box .status .pause{
+    color: #F9B701;
+}
+.licensedModal .licensed-card .content-box .status .expired{
+    color: #0096B6;
+}
+
+.licensedModal hr{
+    margin-bottom: 25px;
+    width: 100%;
+    margin-top: 0;
+    border: 1px solid #F5F7FA;
+}
+
+@media (min-width: 992px){
+
+    .offset-lg-1 {
+        margin-inline-start: 8.333333%;
+        margin-inline-end: 0;
+    }
+
+}
+@media (max-width: 767.98px){
+    .licensedModal h3{
+        line-height: inherit;
+    }
+}

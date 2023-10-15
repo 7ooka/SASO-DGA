@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126.4px" height="123.7px" viewBox="0 0 146.4 163.7">
+<defs>
+
+<style>
+.cls-1{fill:#bbeef9;opacity:0;width:0;height:0}
+.cls-2{fill:#0096B6;}
+.cls-3{fill:#fff;}
+.Dots{opacity:0;
+transform-origin: center;
+animation: .8s dotsappear ease infinite ;
+animation-delay:1.5s;
+}
+
+#Animated_circle{
+animation: .6s listen ease infinite;
+transform-origin:center;
+animation-delay:1s;
+
+}
+@keyframes listen {
+
+    from {
+    -webkit-transform: scale3d(.85, .85, .85);
+    transform: scale3d(.85, .85,.85);
+    opacity:1;
+  }
+
+  50% {
+    -webkit-transform: scale3d(.95, .95, .95);
+    transform: scale3d(.95, .95, .95);
+    opacity:.5
+  }
+
+  to {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9);
+    opacity:1
+  }
+
+}
+
+@keyframes dotsappear {
+100%{
+opacity:.6
+}
+
+}
+
+
+</style>
+
+</defs>
+<title>mic-icon</title>
+<g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="Mic"><circle id="Animated_circle" class="cls-1" cx="73.2" cy="73.2" r="73.2"/><circle class="cls-2" cx="73.2" cy="73.2" r="59"/><path class="cls-3" d="M73.2,86.11A12.94,12.94,0,0,0,86.11,73.2V52.55a12.88,12.88,0,0,0-22-9.11,12.39,12.39,0,0,0-3.79,9.11V73.2A12.94,12.94,0,0,0,73.2,86.11Z"/><path class="cls-3" d="M95.67,66.22A2.59,2.59,0,0,0,91.27,68V73.2A18.1,18.1,0,0,1,73.2,91.27,18.11,18.11,0,0,1,55.13,73.2V68A2.58,2.58,0,0,0,50,68V73.2A23.23,23.23,0,0,0,70.62,96.27v5.33H60.3a2.47,2.47,0,0,0-1.82.76,2.54,2.54,0,0,0,0,3.64,2.47,2.47,0,0,0,1.82.76H86.11a2.58,2.58,0,0,0,0-5.16H75.78V96.27A23.23,23.23,0,0,0,96.44,73.2V68a2.5,2.5,0,0,0-.77-1.82Z"/><g class="Dots"><circle class="cls-5" cx="73.2" cy="159.98" r="4"/><circle class="cls-5" cx="89.6" cy="159.98" r="4"/><circle class="cls-5" cx="56.8" cy="159.98" r="4"/></g></g></g></g></svg>

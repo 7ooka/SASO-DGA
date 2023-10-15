@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.317" height="81.795" viewBox="0 0 83.317 81.795">
+  <defs>
+    <filter id="saso-art" x="0" y="0" width="83.317" height="81.795" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#002a33" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#saso-art)">
+    <path id="saso-art-2" data-name="saso-art" d="M3670.734,160.037c-3.191-9.038-8.783-17.365-17-22.6v0c-10.94,7.1-17.769,19.675-19.155,32.51,11.775,5.819,26.477,5.607,38.317-.033A52.687,52.687,0,0,0,3670.734,160.037Z" transform="translate(-3612.08 -119.94)" fill="#0096b6"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="download" transform="translate(0.303)">
+    <rect id="Rectangle_11332" data-name="Rectangle 11332" width="20" height="20" transform="translate(-0.303)" fill="#fff" opacity="0"/>
+    <rect id="Rectangle_11333" data-name="Rectangle 11333" width="13.131" height="1.641" rx="0.821" transform="translate(3.283 14.773)" fill="#fff"/>
+    <rect id="Rectangle_11334" data-name="Rectangle 11334" width="3.283" height="1.641" rx="0.821" transform="translate(3.283 16.414) rotate(-90)" fill="#fff"/>
+    <rect id="Rectangle_11335" data-name="Rectangle 11335" width="3.283" height="1.641" rx="0.821" transform="translate(14.773 16.414) rotate(-90)" fill="#fff"/>
+    <path id="Path_1719" data-name="Path 1719" d="M11.1,14.1a.821.821,0,0,1-.476-.148L7.344,11.641A.821.821,0,1,1,8.3,10.3L11.1,12.265l2.79-2.1a.821.821,0,1,1,.985,1.313L11.6,13.939a.821.821,0,0,1-.492.164Z" transform="translate(-1.255 -1.793)" fill="#fff"/>
+    <path id="Path_1720" data-name="Path 1720" d="M11.821,11.207A.821.821,0,0,1,11,10.386V3.821a.821.821,0,1,1,1.641,0v6.566A.821.821,0,0,1,11.821,11.207Z" transform="translate(-1.972 -0.538)" fill="#fff"/>
+  </g>
+</svg>

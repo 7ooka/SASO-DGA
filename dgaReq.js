@@ -38,7 +38,7 @@ function selectMenu() {
     });
 }
 
-/* 2/2 change content base on select */
+
 $(document).ready(function () {
 
     $("#toRateEvent").click(function () {
@@ -49,9 +49,51 @@ $(document).ready(function () {
         $('.toRateEL').hide()
         $("#toRateEvent").show()
     })
-    
+    // AO select dropdown menu
     if ($('.branchesV2').length) {
         selectMenu()
     }
+    // AO jumping links
+    if ($('.ds-sideNavigation-content').length) {
+
+        const menuLinks = $('.JumpLink  a');
+
+        menuLinks.on('click', function (event) {
+            event.preventDefault();
+            const targetId = $(this).attr('href');
+            const targetSection = $(targetId);
+
+            $('html, body').animate({
+                scrollTop: targetSection.offset().top + -80
+            }, 'slow');
+        });
+
+        $(window).on('scroll', function () {
+            const currentScrollPos = $(window).scrollTop();
+
+            menuLinks.each(function () {
+                const targetId = $(this).attr('href');
+                const targetSection = $(targetId);
+                console.log(targetSection.offset().top)
+                if (targetSection.offset().top - 80 <= currentScrollPos && (targetSection.offset().top - 80 + targetSection.height()) > currentScrollPos) {
+                    $(this).addClass('active');
+                } else {
+                    $(this).removeClass('active');
+                }
+            });
+        });
+    }
+
+});
+
+
+
+
+
+
+
+
+
+$(document).ready(function () {
 
 });

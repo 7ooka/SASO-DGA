@@ -1475,6 +1475,7 @@ z-index: 99;
     font-size: 40px;
     font-weight: 600;
     color: #3CA078;
+    font: 4rem NotoNaskhArabic, arial, sans-serif;
 }
 .stats-sec .stats-container h3 span::before{
     content: "-";
@@ -1520,7 +1521,7 @@ z-index: 99;
 .stats-sec .stats-container .stat-card .icon-box img{}
 .stats-sec .stats-container .stat-card .stat-num{
     font-size: 40px;
-    /* font-family: ''; */
+      font: 4rem NotoNaskhArabic, arial, sans-serif;
     font-weight: 600;
     color: #464749;
     line-height: 40px;

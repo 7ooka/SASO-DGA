@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
   <g id="voicFooter" transform="translate(-247 3)">
     <circle id="Ellipse_11715" data-name="Ellipse 11715" cx="16" cy="16" r="16" transform="translate(247 -3)" fill="#fff"/>
-    <g id="mic" transform="translate(256 2)">
-      <path id="Path" d="M3,0A3,3,0,0,0,0,3v8a3,3,0,0,0,6,0V3A3,3,0,0,0,3,0Z" transform="translate(4)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <path id="Path-2" data-name="Path" d="M14,0V2A7,7,0,0,1,0,2V0" transform="translate(0 9)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <path id="Path-3" data-name="Path" d="M.5,0V4" transform="translate(6.5 18)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-      <path id="Path-4" data-name="Path" d="M0,.5H8" transform="translate(3 21.5)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <g id="mic" transform="translate(256.752 3.182)">
+      <path id="Path" d="M2.678,0A2.678,2.678,0,0,0,0,2.678V9.818a2.678,2.678,0,0,0,5.355,0V2.678A2.678,2.678,0,0,0,2.678,0Z" transform="translate(3.57)" fill="none" stroke="#3ca078" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path-2" data-name="Path" d="M12.5,0V1.785a6.248,6.248,0,0,1-12.5,0V0" transform="translate(0 8.033)" fill="none" stroke="#3ca078" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path-3" data-name="Path" d="M.5,0V3.57" transform="translate(5.748 16.066)" fill="none" stroke="#3ca078" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path-4" data-name="Path" d="M0,.5H7.141" transform="translate(2.678 19.137)" fill="none" stroke="#3ca078" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
     </g>
   </g>
 </svg>

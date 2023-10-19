@@ -112,44 +112,25 @@
 
 <body class="innerpages">
     <header class="header-wrapper home-header">
-        <div class="topbar">
+        <!-- <div class="topbar">
             <div class="container new-container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-lg-6">
                         <a class="logo" href="/ar">
                             <img src="images/New/new-logo.svg" alt="" class="logoImg" />
-                            <!-- <span class="logo-sep"></span>
-                            <img src="styles/images/visionlogo.svg" alt="" class="vissionlogoImg"> -->
                         </a>
                     </div>
                     <div class="col-md-12 col-sm-12 col-lg-6">
                         <div class="top-functions">
                             <div class="top-header-icons">
-                                <div class="settings">
-                                    <div class="dropdown">
-                                        <button class="dropdown-toggle" type="button" id="settingsMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <img src="images/New/settings-outline.svg" alt="" />
-                                        </button>
-
-                                        <div class="dropdown-menu topLnksMenu" aria-labelledby="settingsMenuLink">
-                                            <a href="javascript:void(0);" class="topLnk blindness dropdown-item" title="تباين عال"><i class="icon-eye-off"></i>تباين</a>
-                                            <a href="javascript:$('#audioControls').modal('show');  startVoiceRecognition();" class="topLnk talk dropdown-item"><i class="icon-mic"></i>تحدث</a>
-                                        </div>
-                                    </div>
-                                </div>
 
                                 <a href="https://mci.gov.sa/en/pages/default.aspx" id="ctl00_UC_VariationLabel_lnkLanguage" class="topLnk lang">
                                     En
                                     <img src="images/New/lang-icon.svg" alt="" />
                                 </a>
 
-                                <!-- <a href="/ar/Pages/MobileApps.aspx" title="اتصل بنا" class="topLnk apps"><i class="icon-phone-1"></i></a> -->
 
-                                <a href="/ar/FAQ" class="topLnk faq" title="أسئلة شائعة">
-                                    <img src="images/New/help-icon.svg" alt="" />
-                                </a>
-
-                                <!-- <a href="/ar/Pages/MobileApps.aspx" title="تطبيقات الجوال" class="topLnk apps"><i class="icon-mobile"></i></a> -->
+                              
                             </div>
                             <a href="#?" class="searchicon" id="searchshow" title="البحث">
                                 <img src="images/New/search-icon.svg" alt="" />
@@ -205,25 +186,23 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="topnav">
             <div class="container new-container">
                 <div class="no-padding">
                     <nav class="navbar navbar-expand-lg" id="mainMenuNavContainer">
+                        <a class="logo navbar-brand" href="/ar">
+                            <img src="images/New/new-logo.svg" alt="" class="logohere" />
+                        </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenuNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
                         <div class="collapse navbar-collapse" id="mainMenuNav">
                             <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <img src="images/New/Home-icon.svg" alt="" />
-                                    </a>
-                                </li>
                                 <!-- عن الهيئة -->
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         عن الهيئة
                                     </a>
                                     <div class="dropdown-menu about-hay2a first-bg" aria-labelledby="navbarDropdown">
@@ -413,6 +392,13 @@
                                         </div>
                                     </div>
                                 </li>
+                                <!-- الخدمات -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        الخدمات
+                                    </a>
+                                </li>
+
                                 <!-- توعية المستهلك  -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -704,9 +690,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">اتصل بنا</a>
-                                </li>
+                               
                                 <!--  انضم إلينا -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -745,7 +729,50 @@
                                         </div>
                                     </div>
                                 </li>
+                                <!-- <li>
+                                    <a href="https://mci.gov.sa/en/pages/default.aspx" id="ctl00_UC_VariationLabel_lnkLanguage" class="topLnk lang">
+                                        English
+                                        <img src="images/New/lang-icon.svg" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#?" class="searchicon" id="searchshow" title="البحث">
+                                        <img src="images/New/search-icon.svg" alt="" />
+                                    </a>
+                                    <div class="searchbox">
+                                        <div class="search-form clearfix">
+                                            <input type="text" id="txtSearch" class="search-input fA" placeholder="ابحث في الموقع..." />
+                                            <span class="searchcontrols">
+                                                <a href="#?" onclick="doSearch();" class="search-btn"><i class="search3 icon-search"></i></a>
+                                                <a href="#?" class="closeSearch-btn"><i class="icon-close closeSearch"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </li> -->
                             </ul>
+                            <a href="https://mci.gov.sa/en/pages/default.aspx" id="ctl00_UC_VariationLabel_lnkLanguage" class="topLnk lang">
+                                English
+                            </a>
+                        
+                            <div class="search-area">
+
+                                <a href="#?" class="searchicon" id="searchshow" title="البحث">
+                                    <img src="newImgDga/search.svg" alt="" />
+                                    <span>
+                                        بحث
+                                    </span>
+                                </a>
+                                <div class="searchbox" style="display: none;">
+                                    <div class="search-form clearfix">
+                                        <input type="text" id="txtSearch" class="search-input fA" placeholder="ابحث في الموقع..." />
+                                        <span class="searchcontrols">
+                                            <a href="#?" onclick="doSearch();" class="search-btn"><i class="search3 icon-search"></i></a>
+                                            <a href="#?" class="closeSearch-btn"><i class="icon-close closeSearch"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                         
                         </div>
                     </nav>
                 </div>
@@ -753,639 +780,234 @@
         </div>
     </header>
 
-    <!-- AO start  -->
-    <div class="fullWidthBGContantUs service-det-main">
+    <!-- start  -->
+    <div class="">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <p class="name">
-                        خدمة
-                    </p>
-                    <div class="head-box">
-                        <h1 class="font35">
-                            منح ترخيص علامة الجودة
+                <div class="col-12">
+                    <div class="main-sec">
+                        <h1 class="main-h">
+                            إحصائيات ومؤشرات الهيئة
                         </h1>
-                        <a href="#" class="start-serv">
-                            ابدأ الخدمة
-                        </a>
-                    </div>
-                    <div class="hashtags">
-                        <a href="#">
-                            <span class="blue">
-                                خدمات التاجر
-                            </span>
-                        </a>
-                        <a href="#">
-                            <span class="red">
-                                المورد
-                            </span>
-                        </a>
-                        <a href="#">
-                            <span class="green">
-                                خدمات المستهلك
-                            </span>
-                        </a>
-                    </div>
-                    <p class="p16">
-                        يصدر ترخيص استعمال علامة الجودة عند مطابقة المنتج للوائح الفنية والمواصفات القياسية المعتمدة،
-                         ويعتبر الترخيص وسيلة لإرشاد المستهلك نحو السلع المطابقة للمواصفات كما يؤدي إلى كسب رضا وثقة المستهلك،
-                         إلى جانب تسهيل عقد اتفاقيات التصدير مع الدول الخارجية وانسيابية دخول السلع عبر المنافذ الجمركية
-                          ورفع القدرة التنافسية للمنتجات السعودية.
-                    </p>
-                    <div class="links">
-                        <a href="https://maps.app.goo.gl/izubL87HJT8BYes7A" target="_blank" class="DgaLink">
-                            <span>
-                                اتفاقية مستوى الخدمة    
-                            </span>
-                            <img src="./newImgDga/external.svg" alt="">
-                        </a>
-                        <a href="https://maps.app.goo.gl/izubL87HJT8BYes7A" target="_blank" class="DgaLink">
-                            <span>
-                                دليل المستخدم
-                            </span>
-                            <img src="./newImgDga/external.svg" alt="">
-                        </a>
+                        <p>
+                            توفر هذه الصفحة مقتطفًا من إحصاءات القراء لهذا الموقع والتي تم جمعها من Google Analytics
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- end heading full with BG  -->
-    <section class="layoutWidhSideMenu services-tabs ">
+
+    <section class="stats-sec">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <nav>
-                                <div class="nav nav-tabs  " id="nav-tab" role="tablist">
-                                  <button class="nav-link active" id="nav-open-tab" data-toggle="tab" data-target="#nav-open" type="button" role="tab" aria-controls="nav-open" aria-selected="true">
-                                    متطلبات تنفيذ الخدمة
-                                  </button>
-                
-                                  <button class="nav-link" id="nav-previous-tab" data-toggle="tab" data-target="#nav-previous" type="button" role="tab" aria-controls="nav-previous" aria-selected="false">
-                                    خطوات تنفيذ الخدمة
-                                  </button>
-    
-                                  <button class="nav-link" id="nav-doc-tab" data-toggle="tab" data-target="#nav-doc" type="button" role="tab" aria-controls="nav-doc" aria-selected="false">
-                                    المستندات والمرفقات
-                                  </button>
+                <div class="col-12">
+                    <div class="stats-container">
+                        <h3>
+                            المواصفات المعتمدة
+                            <span class="numbers">
+                                31444
+                            </span>
+                        </h3>
+                        <div class="stats-list">
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
                                 </div>
-                              </nav>
-                              <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-open" role="tabpanel" aria-labelledby="nav-open-tab">
-                                 
-                                    <ul>
-                                        <li>
-                                            تعبئة نموذج طلب الحصول على الترخيص باستعمال علامة الجودة على الورق الرسمي للمنشأة (تحميل النموذج).
-                                        </li>
-                                        <li>
-                                            عقد الترخيص باٍستعمال علامة الجودة. (تحميل نموذج العقد).
-                                        </li>
-                                        <li>
-                                            إرفاق الملفات المطلوبة (السجل التجاري، الترخيص الصناعي، خريطة موقع مصنع المنشأة،
-                                             الهيكل التنظيمي، دليل الجودة أو نظام إدارة الجودة، مخطط مراقبة الجودة البيانات الايضاحية للمنتج،
-                                              نتائج المراقبة الذاتية للمنتج، تقرير اختبار للمنتج من مختبر معتمد وفق (ISO 17025)
-                                               في مجال المنتج، شهادة ملكية العلامة التجارية، الترميز الرقمي للمنتجات (باركود).
-                                        </li>
-                                    </ul>
-                                    <h5>
-                                        م​تطلبات إضافية:
-                                    </h5>
-                                    <ul>
-                                        <li>
-                                            بطاقات الكفاءة للمنتجات التي تتطلب شهادة كفاءة الطاقة
-                                            اضغط
-                                            <a href="#" target="_blank" class="DgaLink">
-                                                <span>
-                                                    هنا   
-                                                </span>
-                                                <img src="./newImgDga/external.svg" alt="">
-                                            </a> 
-                                        </li>
-                                        <li>
-                                            شارة المطابقة الخليجية للمنتجات التي تتطلب الشارة الخليجية، 
-                                            اضغط
-                                            <a href="#" target="_blank" class="DgaLink">
-                                                <span>
-                                                    هنا   
-                                                </span>
-                                                <img src="./newImgDga/external.svg" alt="">
-                                            </a> 
-                                        </li>
-                                        <li>
-                                            شهادات (IECEE) للمنتجات التي تتطلب شهادات IECEE، 
-                                            اضغط
-                                            <a href="#" target="_blank" class="DgaLink">
-                                                <span>
-                                                    هنا   
-                                                </span>
-                                                <img src="./newImgDga/external.svg" alt="">
-                                            </a> 
-                                        </li>
-                                        <li>
-                                            شهادة ادارة سلامة الغذاء  ISO 22000 للمنشآت الغذائية والزراعية، 
-                                            اضغط
-                                            <a href="#" target="_blank" class="DgaLink">
-                                                <span>
-                                                    هنا   
-                                                </span>
-                                                <img src="./newImgDga/external.svg" alt="">
-                                            </a> 
-                                        </li>
-                                    </ul>
-          
+                                <div class="stat-num">
+                                    7755
                                 </div>
-                                <!-- end content -->
-                                <div class="tab-pane fade" id="nav-previous" role="tabpanel" aria-labelledby="nav-previous-tab">
-                                
-                                  <ol>
-                                    <li>
-                                        اختر (ابدأ الخدمة) للاستفادة من خدمة منح ترخيص علامة الجودة.
-                                    </li>
-                                    <li>
-                                        سجل منشأتك في نظام منح الشهادات الإلكتروني، وتعبئة معلومات المنشأة.
-                                    </li>
-                                    <li>
-                                        تعبئة طلب الحصول على علامة الجودة وإرفاق الملفات المطلوبة.
-                                    </li>
-                                    <li>
-                                        تعبئة خانة المنتجات المرغوب منحها علامة الجودة.
-                                    </li>
-                                    <li>
-                                        قدم الطلب وأدفع تكاليف تقديم الطلب.
-                                    </li>
-                                    <li>
-                                        بإمكانك متابعة حالة الطلب من خلال حسابك في نظام منح الشهادات
-                                    </li>
-                                  </ol>
+                                <p>
+                                    المنتجات الكيميائية و البترولية
+                                </p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
                                 </div>
-                                <!-- end content -->
-                                <div class="tab-pane fade" id="nav-doc" role="tabpanel" aria-labelledby="nav-doc-tab">
-                                
-                                  <ul class="docs">
-                                    <li>
-                                        <a href="#">
-    
-                                            تكاليف الخدمات
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            لائحة علامة الجودة السعودية
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            إجراءات منح ترخيص استعمال العلامة للمنتجات
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            نموذج التعهد
-                                        </a>
-                                    </li>
-                                     <li>
-                                         <a href="#">
-                                            نموذج طلب الحصول على الترخيص با​ستعمال العلامة
-                                        </a>
-                                    </li>
-                                     <li>
-                                        <a href="#">
-                                            نموذج طلب الحصول على الترخيص باستعمال العلامة (المورد/الموزع)​
-                                        </a>
-                                    </li>
-                                     <li>
-                                        <a href="#">
-                                            نموذج عقد الترخيص باستعمال العلامة​
-                                        </a>
-                                    </li>
-                                  
-                                  </ul>
+                                <div class="stat-num">
+                                    5806
                                 </div>
-                              </div>
-                
+                                <p>
+                                    المنتجات الميكانيكية والمعدنية
+                                </p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
+                                </div>
+                                <div class="stat-num">
+                                    3051
+                                </div>
+                                <p>
+                                    مواصفات المقاييس والموازين
+                                </p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
+                                </div>
+                                <div class="stat-num">
+                                    4168
+                                </div>
+                                <p>
+                                    التشييد ومواد البناء
+                                </p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
+                                </div>
+                                <div class="stat-num">
+                                    7755
+                                </div>
+                                <p>
+                                    المنتجات الكيميائية و البترولية
+                                </p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
+                                </div>
+                                <div class="stat-num">
+                                    1597
+                                </div>
+                                <p>
+                                    منتجات الغزل والنسيج
+                                </p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
+                                </div>
+                                <div class="stat-num">
+                                    1691
+                                </div>
+                                <p>
+                                    مواصفات الخدمات
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- end col 8  -->
 
-                <div class="col-lg-4">
-                    <div class="branchesV2 services-sideCard">
-                        <div class="branchesDetailsWapper dropdown-content-bond">
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/service-det/users.svg" alt="">
+                    <div class="stats-container">
+                        <h3>
+                            شهادات كفاءة الطاقة
+                            <span class="numbers">
+                                439871
+                            </span>
+                        </h3>
+                        <div class="stats-list">
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
                                 </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">
-                                        مواطن, مقيم, حكومية, زائر, أعمال
-                                    </h3>
-                                    <p class="p16">
-                                        الفئة المستهدفة
-                                    </p>
+                                <div class="stat-num">
+                                    294792
                                 </div>
+                                <p>
+                                    شهادات كفاءة الطاقة الاجهزة الكهربائية
+                                </p>
                             </div>
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/service-det/clock.svg" alt="">
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
                                 </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">
-                                        55 يوم عمل
-                                    </h3>
-                                    <p class="p16">
-                                        مدة تنفيذ الخدمة
-                                    </p>
+                                <div class="stat-num">
+                                    121212
                                 </div>
+                                <p>
+                                    شهادات كفاءة الطاقة الاطارات
+                                </p>
                             </div>
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/service-det/monitor.svg" alt="">
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
                                 </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">
-                                        بوابة إلكترونية,تطبيقات الويب والجوال
-                                    </h3>
-                                    <p class="p16">
-                                        قنوات تقديم الخدمة
-                                    </p>
+                                <div class="stat-num">
+                                    23867
                                 </div>
+                                <p>
+                                    كفاءة ترشيد المياه
+                                </p>
                             </div>
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/service-det/SAR.svg" alt="">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">
-                                        الاطلاع على المرفقات
-                                    </h3>
-                                    <p class="p16">
-                                        تكلفة الخدمة
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
                             
-                            <h5>
-                                خدمة العملاء
-                            </h5>
+                        </div>
+                    </div>
 
-                            <a class="breanchBox" href="tel:8001160000">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/contact.svg" alt="">
+                    <div class="stats-container">
+                        <h3>
+                            منح الشهادات
+                            <span class="numbers">
+                                57695
+                            </span>
+                        </h3>
+                        <div class="stats-list">
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
                                 </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">رقم الهاتف</h3>
-                                    <p class="p16 blueColor">8001160000</p>
+                                <div class="stat-num">
+                                    1852
                                 </div>
-                            </a>
-                            <!-- end branche Details  -->
-                            <a class="breanchBox" href="mailto:info@saso.gov.sa">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/mail.svg" alt="">
+                                <p>
+                                    علامة الجودة
+                                </p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
                                 </div>
-                                   <div class="BTxt">
-                                    <h3 class="font18"> البريد الإلكتروني</h3>
-                                    <p class="p16 blueColor">info@saso.gov.sa</p>
+                                <div class="stat-num">
+                                    4236
                                 </div>
-                            </a>
-                            <!-- end branche Details  -->
+                                <p>
+                                    شهادات المطابقة
+                                </p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
+                                </div>
+                                <div class="stat-num">
+                                    51607
+                                </div>
+                                <p>
+                                    شهادات IECEE
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="stats-container">
+                        <h3>
+                            المختبرات
+                            <span class="numbers">
+                                837944
+                            </span>
+                        </h3>
+                        <div class="stats-list">
+                            <div class="stat-card">
+                                <div class="icon-boxx">
+                                    <img src="newImgDga/stats-icon.svg" alt="">
+                                </div>
+                                <div class="stat-num">
+                                    837944
+                                </div>
+                                <p>
+                                    مختبر فحص السيارات
+                                </p>
+                            </div>
                            
-                            <a href="#" class="download-det">
-                                تحميل دليل المستخدم
-                            </a>
+                            
                         </div>
-                        <!-- end branches Details Wapper  -->
-                        <div class="branchesDetailsWapper dropdown-content-bond">
-                    
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/map-pin.svg" alt="address">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">العنوان</h3>
-                                    <p class="p16">
-                                        جدة - حي العزيزية - شارع الصحافة - بجوار بلدية العزيزية الفرعية
-                                    </p>
-                                    <a href="https://maps.app.goo.gl/GdUtZjAq3ciabJF38" class="DgaLink" target="_blank">
-                                        <span>استعراض إحداثيات الموقع</span>
-                                        <img src="./newImgDga/external.svg" alt="map">
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-     
-                            <a class="breanchBox" href="tel:0126751013">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/contact.svg" alt="phone">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">رقم الهاتف</h3>
-                                    <p class="p16 blueColor">8001160000</p>
-                                </div>
-                            </a>
-                            <!-- end branche Details  -->
-                           <div class="breanchBox" href="#!">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/printer.svg" alt="printer">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18 ">رقم الفاكس</h3>
-                                    <p class="p16 blueColor">6751019 012</p>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-                            <a class="breanchBox" href="mailto:info@saso.gov.sa">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/mail.svg" alt="mail">
-                                </div>
-                                   <div class="BTxt">
-                                    <h3 class="font18"> البريد الإلكتروني</h3>
-                                    <p class="p16 blueColor">info@saso.gov.sa</p>
-                                </div>
-                            </a>
-                            <!-- end branche Details  -->
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/clock.svg" alt="clock">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">ساعات العمل</h3>
-                                    <p class="p16">من 7:30 صباحاً إلى 3:30 مساءً</p>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-                       
-                        </div>
-                        
-                        <!-- end branches Details Wapper  -->
-                        <div class="branchesDetailsWapper dropdown-content-bond">
-                    
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/map-pin.svg" alt="address">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">العنوان</h3>
-                                    <p class="p16">
-                                        شارع الملك فيصل (الخبر - الدمام الساحلي) جنوب سكن جامعة الملك فيصل بالدمام
-                                    </p>
-                                    <a href="https://maps.app.goo.gl/Yo4hhDe1WzppqWuQ9" class="DgaLink" target="_blank">
-                                        <span>استعراض إحداثيات الموقع</span>
-                                        <img src="./newImgDga/external.svg" alt="map">
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-     
-                            <a class="breanchBox" href="tel:0138584435">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/contact.svg" alt="phone">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">رقم الهاتف</h3>
-                                    <p class="p16 blueColor">8001160000</p>
-                                </div>
-                            </a>
-                            <!-- end branche Details  -->
-                           <div class="breanchBox" href="#!">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/printer.svg" alt="printer">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18 ">رقم الفاكس</h3>
-                                    <p class="p16 blueColor">8584438 013</p>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-                            <a class="breanchBox" href="mailto:info@saso.gov.sa">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/mail.svg" alt="mail">
-                                </div>
-                                   <div class="BTxt">
-                                    <h3 class="font18"> البريد الإلكتروني</h3>
-                                    <p class="p16 blueColor">info@saso.gov.sa</p>
-                                </div>
-                            </a>
-                            <!-- end branche Details  -->
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/clock.svg" alt="clock">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">ساعات العمل</h3>
-                                    <p class="p16">من 7:30 صباحاً إلى 3:30 مساءً</p>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-                        </div>
-                        
-                        <!-- end branches Details Wapper  -->
-                        <div class="branchesDetailsWapper dropdown-content-bond">
-                    
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/map-pin.svg" alt="address">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">العنوان</h3>
-                                    <p class="p16">
-                                        حي المروج – شارع الخوارزمي
-                                    </p>
-                                    <a href="https://maps.app.goo.gl/6YAgDdEbUEFgJpNw7" class="DgaLink" target="_blank">
-                                        <span>استعراض إحداثيات الموقع</span>
-                                        <img src="./newImgDga/external.svg" alt="map">
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-     
-                            <a class="breanchBox" href="tel:0144286130">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/contact.svg" alt="phone">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">رقم الهاتف</h3>
-                                    <p class="p16 blueColor">8001160000</p>
-                                </div>
-                            </a>
-                            <!-- end branche Details  -->
-                           <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/printer.svg" alt="printer">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18 ">رقم الفاكس</h3>
-                                    <p class="p16 blueColor">4280430 014 </p>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-                            <a class="breanchBox"href="mailto:info@saso.gov.sa">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/mail.svg" alt="mail">
-                                </div>
-                                   <div class="BTxt">
-                                    <h3 class="font18"> البريد الإلكتروني</h3>
-                                    <p class="p16 blueColor">info@saso.gov.sa</p>
-                                </div>
-                            </a>
-                            <!-- end branche Details  -->
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/clock.svg" alt="clock">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">ساعات العمل</h3>
-                                    <p class="p16">من 7:30 صباحاً إلى 3:30 مساءً</p>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-
-                        </div>
-                        
-                        <!-- end branches Details Wapper  -->
-                        <div class="branchesDetailsWapper dropdown-content-bond">
-                    
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/map-pin.svg" alt="address">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">العنوان</h3>
-                                    <p class="p16">
-                                        شارع الأمير محمد بن ناصر - مخطط 5 - بجوار فندق الهوليدي ان
-                                    </p>
-                                    <a href="https://maps.app.goo.gl/R8RfJEu87DEQjWyu8" class="DgaLink" target="_blank">
-                                        <span>استعراض إحداثيات الموقع</span>
-                                        <img src="./newImgDga/external.svg" alt="map">
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-     
-                            <a class="breanchBox" href="tel:0173235796">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/contact.svg" alt="phone">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">رقم الهاتف</h3>
-                                    <p class="p16 blueColor">8001160000</p>
-                                </div>
-                            </a>
-                            <!-- end branche Details  -->
-                           <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/printer.svg" alt="printer">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18 ">رقم الفاكس</h3>
-                                    <p class="p16 blueColor">3235795 017</p>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-                            <a class="breanchBox" href="mailto:info@saso.gov.sa">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/mail.svg" alt="mail">
-                                </div>
-                                   <div class="BTxt">
-                                    <h3 class="font18"> البريد الإلكتروني</h3>
-                                    <p class="p16 blueColor">info@saso.gov.sa</p>
-                                </div>
-                            </a>
-                            <!-- end branche Details  -->
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/clock.svg" alt="clock">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">ساعات العمل</h3>
-                                    <p class="p16">من 7:30 صباحاً إلى 3:30 مساءً</p>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-
-                        </div>
-                        
-                        <!-- end branches Details Wapper  -->
-                        <div class="branchesDetailsWapper dropdown-content-bond">
-                    
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/map-pin.svg" alt="address">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">العنوان</h3>
-                                    <p class="p16">
-                                        منفذ الحديثة
-                                    </p>
-                                    <a href="https://maps.app.goo.gl/D48Gi4TtDw64XNDJ9" class="DgaLink" target="_blank">
-                                        <span>استعراض إحداثيات الموقع</span>
-                                        <img src="./newImgDga/external.svg" alt="map">
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-     
-                            <a class="breanchBox" href="tel:0146581067">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/contact.svg" alt="phone">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">رقم الهاتف</h3>
-                                    <p class="p16 blueColor">8001160000</p>
-                                </div>
-                            </a>
-                            <!-- end branche Details  -->
-                           <a class="breanchBox" href="#!">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/printer.svg" alt="printer">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18 ">رقم الفاكس</h3>
-                                    <p class="p16 blueColor">6580779 014</p>
-                                </div>
-                            </a>
-                            <!-- end branche Details  -->
-                            <a class="breanchBox" href="mailto:info@saso.gov.sa">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/mail.svg" alt="mail">
-                                </div>
-                                   <div class="BTxt">
-                                    <h3 class="font18"> البريد الإلكتروني</h3>
-                                    <p class="p16 blueColor">info@saso.gov.sa</p>
-                                </div>
-                            </a>
-                            <!-- end branche Details  -->
-                            <div class="breanchBox">
-                                <div class="BIcon">
-                                    <img src="./newImgDga/clock.svg" alt="clock">
-                                </div>
-                                <div class="BTxt">
-                                    <h3 class="font18">ساعات العمل</h3>
-                                    <p class="p16">من 7:30 صباحاً إلى 3:30 مساءً</p>
-                                </div>
-                            </div>
-                            <!-- end branche Details  -->
-                        </div>
-                        
                     </div>
                 </div>
-                <!-- end col 4  -->
-                
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                   
-                    <div class="updateTime">
-                        <p class="p12">تاريخ آخر تحديث: 04/12/2020 – المملكة العربية السعودية 4:13 م</p>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </section>
-    
+
     <section class="ratingV2">
         <div class="container">
             <div class="row">

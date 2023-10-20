@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="62" height="46.5" viewBox="0 0 62 46.5">
   <g id="alert-badge" transform="translate(3427 19135)">
-    <path id="Rectangle" d="M-3385-19135a20.027,20.027,0,0,1,20,20h0a20.027,20.027,0,0,1-20,20h0a20.027,20.027,0,0,1-20-20h0A20.027,20.027,0,0,1-3385-19135Z" fill="rgba(0,150,182,0.2)"/>
+    <path id="Rectangle" d="M-3385-19135a20.027,20.027,0,0,1,20,20h0a20.027,20.027,0,0,1-20,20h0a20.027,20.027,0,0,1-20-20h0A20.027,20.027,0,0,1-3385-19135Z" fill="#3ca078" opacity="0.2"/>
     <g id="bad-review" transform="translate(-3427 -19128)">
-      <path id="Path" d="M30.543,0H6.207A6.214,6.214,0,0,0,0,6.207V20.371a6.214,6.214,0,0,0,6.207,6.207h.269v3.778a.82.82,0,0,0,1.4.58l4.358-4.358H15.3a.82.82,0,1,0,0-1.641H11.894a.821.821,0,0,0-.58.24l-3.2,3.2V25.758a.82.82,0,0,0-.82-.82H6.207a4.572,4.572,0,0,1-4.566-4.566V6.207A4.572,4.572,0,0,1,6.207,1.641H30.543a4.572,4.572,0,0,1,4.567,4.566v7.082a.82.82,0,1,0,1.641,0V6.207A6.214,6.214,0,0,0,30.543,0Z" fill="#0096b6"/>
-      <path id="Path-2" data-name="Path" d="M30.516,12.469H6.234a.82.82,0,1,0,0,1.641H30.516a.82.82,0,0,0,0-1.641Z" fill="#0096b6"/>
-      <path id="Path-3" data-name="Path" d="M26.126,7.219H6.234a.82.82,0,1,0,0,1.641H26.126a.82.82,0,0,0,0-1.641Z" fill="#0096b6"/>
-      <path id="Path-4" data-name="Path" d="M31.1,7.459a.82.82,0,1,0,.24.58A.826.826,0,0,0,31.1,7.459Z" fill="#0096b6"/>
-      <path id="Path-5" data-name="Path" d="M15.3,17.719H6.234a.82.82,0,1,0,0,1.641H15.3a.82.82,0,1,0,0-1.641Z" fill="#0096b6"/>
+      <path id="Path" d="M30.543,0H6.207A6.214,6.214,0,0,0,0,6.207V20.371a6.214,6.214,0,0,0,6.207,6.207h.269v3.778a.82.82,0,0,0,1.4.58l4.358-4.358H15.3a.82.82,0,1,0,0-1.641H11.894a.821.821,0,0,0-.58.24l-3.2,3.2V25.758a.82.82,0,0,0-.82-.82H6.207a4.572,4.572,0,0,1-4.566-4.566V6.207A4.572,4.572,0,0,1,6.207,1.641H30.543a4.572,4.572,0,0,1,4.567,4.566v7.082a.82.82,0,1,0,1.641,0V6.207A6.214,6.214,0,0,0,30.543,0Z" fill="#3ca078"/>
+      <path id="Path-2" data-name="Path" d="M30.516,12.469H6.234a.82.82,0,1,0,0,1.641H30.516a.82.82,0,0,0,0-1.641Z" fill="#3ca078"/>
+      <path id="Path-3" data-name="Path" d="M26.126,7.219H6.234a.82.82,0,1,0,0,1.641H26.126a.82.82,0,0,0,0-1.641Z" fill="#3ca078"/>
+      <path id="Path-4" data-name="Path" d="M31.1,7.459a.82.82,0,1,0,.24.58A.826.826,0,0,0,31.1,7.459Z" fill="#3ca078"/>
+      <path id="Path-5" data-name="Path" d="M15.3,17.719H6.234a.82.82,0,1,0,0,1.641H15.3a.82.82,0,1,0,0-1.641Z" fill="#3ca078"/>
       <g id="clock" transform="translate(19.695 18.5)">
-        <circle id="Oval" cx="10" cy="10" r="10" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
-        <path id="Path-6" data-name="Path" d="M0,0V6L4,8" transform="translate(10 4)" fill="none" stroke="#0096b6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <circle id="Oval" cx="10" cy="10" r="10" fill="none" stroke="#3ca078" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path-6" data-name="Path" d="M0,0V6L4,8" transform="translate(10 4)" fill="none" stroke="#3ca078" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
       </g>
     </g>
   </g>

@@ -1,0 +1,902 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="copyright" content="" />
+    <meta name="author" content="Knowledge Management Department" />
+    <meta name="email" content="" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta property="og:image" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Styles/images/favicon.png" />
+
+    <link rel="stylesheet" href="styles/css/normalize.css">
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="styles/css/saso-icons.css">
+    <link rel="stylesheet" href="styles/css/swiper.min.css">
+    <link rel="stylesheet" href="styles/css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="styles/css/select2.min.css" />
+    <link rel="stylesheet" href="styles/css/animate.css" />
+    <link rel="stylesheet" href="styles/css/aos.css" />
+    <link rel="stylesheet" href="styles/css/style.css">
+    <link rel="stylesheet" href="./dgaRequirements.css">
+
+
+    <script src="styles/js/jquery-3.4.1.min.js"></script>
+    <script src="styles/js/jquery-ui.min.js"></script>
+    <script src="styles/js/popper.min.js"></script>
+
+    <script>
+        // Change JQueryUI plugin names to fix name collision with Bootstrap.
+        $.widget.bridge('uitooltip', $.ui.tooltip);
+    </script>
+    <script src="styles/js/bootstrap.min.js"></script>
+    <script src="styles/js/jquery.fancybox.min.js"></script>
+    <script src="styles/js/aos.js"></script>
+    <script src="styles/js/datepicker-ar.js"></script>
+    <script src="styles/js/css_browser_selector.js"></script>
+    <script src="styles/js/swiper.min.js"></script>
+    <script src="styles/js/select2.min.js"></script>
+    <script src="styles/js/select2-ar.js"></script>
+
+    <script src="styles/js/jquery.counterup.min.js"></script>
+    <!-- <script src="styles/js/jquery.vide.js"></script> -->
+    <script src="styles/js/main.js"></script>
+
+    <title>الهيئة السعودية للمواصفات و المقاييس و الجودة</title>
+
+    <!--[if IE 9]>
+        <div class="old-browser-alert">
+         المتصفح الخاص بك قديم جداً يرجى إستخدام الرابط التالي لتنزيل متصف أحدث لكي تتمكن من تصفح هذا الموقع بشكل صحيح:
+        <br/>
+        <a href="https://www.google.com/chrome/">تحميل متصفح جوجل كروم</a>
+        </div>
+    <![endif]-->
+    <!--[if IE 8]>
+        <div class="old-browser-alert">
+         المتصفح الخاص بك قديم جداً يرجى إستخدام الرابط التالي لتنزيل متصف أحدث لكي تتمكن من تصفح هذا الموقع بشكل صحيح:
+        <br/>
+        <a href="https://www.google.com/chrome/">تحميل متصفح جوجل كروم</a>
+        </div>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <header class="header-wrapper">
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a class="logo" href="/ar">
+                            <img src="styles/images/Logo.svg" alt="" class="logoImg">
+                            <span class="logo-sep"></span>
+                            <img src="styles/images/visionlogo.svg" alt="" class="vissionlogoImg">
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="top-functions Aleft">
+                            <a href="#?" class="searchicon" id="searchshow" title="البحث"><i class="search2 icon-search"></i></a>
+                            <div class="searchbox">
+                                <div class="search-form clearfix">
+                                    <input type="text" id="txtSearch" class="search-input fA" placeholder="ابحث في الموقع...">
+                                    <span class="searchcontrols">
+                                        <a href="#?" onclick="doSearch();" class="search-btn"><i class="search3 icon-search"></i></a>
+                                        <a href="#?" class="closeSearch-btn"><i class="icon-close closeSearch"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="hidden-sm hidden-xs">
+
+                                <div class="settings fleft">
+
+                                    <div class="dropdown">
+                                        <button class="dropdown-toggle" type="button" id="settingsMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="icon icon-cog-2"></i>
+                                        </button>
+
+                                        <div class="dropdown-menu topLnksMenu" aria-labelledby="settingsMenuLink">
+                                            <a href="javascript:void(0);" class="topLnk blindness dropdown-item" title="تباين عال"><i class="icon-eye-off"></i>تباين</a>
+                                            <a href="javascript:$('#audioControls').modal('show');  startVoiceRecognition();" class="topLnk talk dropdown-item"><i class="icon-mic"></i>تحدث</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <a href="https://mci.gov.sa/en/pages/default.aspx" id="ctl00_UC_VariationLabel_lnkLanguage" class="topLnk lang"><i class='icon-globe'></i>En</a>
+
+
+
+                                <a href="/ar/Pages/MobileApps.aspx" title="اتصل بنا" class="topLnk apps"><i class="icon-phone-1"></i></a>
+
+
+
+                                <a href="/ar/FAQ" class="topLnk faq" title="أسئلة شائعة">
+                                    <i class="icon-question-circle-o"></i>أسئلة
+                                    شائعة
+                                </a>
+
+                                <a href="/ar/Pages/MobileApps.aspx" title="تطبيقات الجوال" class="topLnk apps"><i class="icon-mobile"></i></a>
+
+
+
+                            </div>
+
+                            <div class="visible-sm visible-xs f-a">
+                                <div class="btn-group">
+                                    <button type="button" class="topLnksMenuBtn" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                        <i class="icon-cog-2" aria-hidden="true"></i>
+                                    </button>
+                                    <ul class="dropdown-menu topLnksMenu">
+                                        <li>
+                                            <a href="#" class="topLnk lang"><i class='icon-globe'></i>En</a>
+                                        </li>
+                                        <li>
+                                            <a href="/ar/FAQ" class="topLnk faq" title="أسئلة شائعة">
+                                                <i class="icon-help-circled"></i>أسئلة
+                                                شائعة
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/ar/contactus" class="topLnk contactus" title="اتصل بنا">
+                                                <i class="icon-phone"></i>اتصل بنا
+                                            </a>
+                                        </li>
+                                        <li><a href="javascript:void(0);" class="topLnk blindness" title="تباين عال"><i class="icon-eye-off"></i>تباين</a></li>
+                                        <li><a href="javascript:$('#audioControls').modal('show');  startVoiceRecognition();" class="topLnk talk"><i class="icon-mic"></i>تحدث</a></li>
+                                        <li><a href="#?" class="topLnk apps"><i class="icon-mobile"></i>تطبيقات الجوال</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="topnav">
+
+
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg" id="mainMenuNavContainer">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenuNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="mainMenuNav">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="icon-home"></i></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        عن الهيئة
+                                    </a>
+                                    <div class='dropdown-menu' aria-labelledby="navbarDropdown">
+                                        <div class='row'>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> رؤية ورسالة الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> أهداف الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> احصائيات الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الهيكل التنظيمي</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوكالات والإدارات</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مبادرات و مشاريع</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مهام الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> اتصل بنا</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> استراتيجية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الاستخدام وإخلاء المسؤولية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوظائف</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مناقصات برنامج الرؤية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> ميزانية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الأنظمة واللوائح</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> تواصل مع معالي الوزير</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام التجارة الالكترونية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام الشركات المهنية الجديد</a></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        قطاعات الهيئة
+                                    </a>
+                                    <div class='dropdown-menu' aria-labelledby="navbarDropdown">
+                                        <div class='row'>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> رؤية ورسالة الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> أهداف الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> احصائيات الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الهيكل التنظيمي</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوكالات والإدارات</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مبادرات و مشاريع</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مهام الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> اتصل بنا</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> استراتيجية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الاستخدام وإخلاء المسؤولية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوظائف</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مناقصات برنامج الرؤية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> ميزانية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الأنظمة واللوائح</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> تواصل مع معالي الوزير</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام التجارة الالكترونية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام الشركات المهنية الجديد</a></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        الأنظمة واللوائح
+                                    </a>
+                                    <div class='dropdown-menu' aria-labelledby="navbarDropdown">
+                                        <div class='row'>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> رؤية ورسالة الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> أهداف الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> احصائيات الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الهيكل التنظيمي</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوكالات والإدارات</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مبادرات و مشاريع</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مهام الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> اتصل بنا</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> استراتيجية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الاستخدام وإخلاء المسؤولية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوظائف</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مناقصات برنامج الرؤية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> ميزانية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الأنظمة واللوائح</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> تواصل مع معالي الوزير</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام التجارة الالكترونية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام الشركات المهنية الجديد</a></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        توعية المستهلك
+                                    </a>
+                                    <div class='dropdown-menu' aria-labelledby="navbarDropdown">
+                                        <div class='row'>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> رؤية ورسالة الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> أهداف الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> احصائيات الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الهيكل التنظيمي</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوكالات والإدارات</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مبادرات و مشاريع</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مهام الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> اتصل بنا</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> استراتيجية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الاستخدام وإخلاء المسؤولية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوظائف</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مناقصات برنامج الرؤية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> ميزانية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الأنظمة واللوائح</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> تواصل مع معالي الوزير</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام التجارة الالكترونية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام الشركات المهنية الجديد</a></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        المركز الإعلامي
+                                    </a>
+                                    <div class='dropdown-menu' aria-labelledby="navbarDropdown">
+                                        <div class='row'>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> رؤية ورسالة الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> أهداف الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> احصائيات الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الهيكل التنظيمي</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوكالات والإدارات</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مبادرات و مشاريع</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مهام الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> اتصل بنا</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> استراتيجية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الاستخدام وإخلاء المسؤولية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوظائف</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مناقصات برنامج الرؤية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> ميزانية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الأنظمة واللوائح</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> تواصل مع معالي الوزير</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام التجارة الالكترونية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام الشركات المهنية الجديد</a></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">الخدمات الإلكترونية</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        بوابة المعرفة
+                                    </a>
+                                    <div class='dropdown-menu' aria-labelledby="navbarDropdown">
+                                        <div class='row'>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> رؤية ورسالة الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> أهداف الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> احصائيات الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الهيكل التنظيمي</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوكالات والإدارات</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مبادرات و مشاريع</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مهام الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> اتصل بنا</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> استراتيجية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الاستخدام وإخلاء المسؤولية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الوظائف</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> مناقصات برنامج الرؤية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> ميزانية الوزارة</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> الأنظمة واللوائح</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> تواصل مع معالي الوزير</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام التجارة الالكترونية</a></h6>
+                                            </div>
+                                            <div class='col-md-3 col-sm-6 col-xm-12'>
+                                                <h6><a href='#' class="dropdown-item"> نظام الشركات المهنية الجديد</a></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+    <section class="innerpages">
+        <div class="breadCrumb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="breadCrumbDetails">
+                            <a href="#">الرئيسية</a>
+                            <a href="#">الخدمات الالكترونية</a>
+                            <span class="active">عناصر التصميم</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="breadCrumbFunctions">
+                            <div class="breadCrumbFunctionsWrapper">
+                                <a href="#" id="fontLarge" title="تكبير حجم الخط"><i class="icon-zoom-in"></i></a>
+                                <a href="#" id="fontSmall" title="تصغير حجم الخط"><i class="icon-zoom-out"></i></a>
+                                <a href="#" title="طباعة"><i class="icon-print"></i></a>
+                                <a href="#" title="اضافة المفضلة"><i class="icon-star-empty"></i></a>
+                            </div>
+
+
+                            <div class="breadCrumbShareWrapper">
+                                <div class="breadCrumbShareWrapper-dropdown">
+                                    <button href="#" class=" breadCrumbShareWrapper-toggle">
+                                        <span class="breadCrumbShareWrapper-rotate"></span>
+                                    </button>
+                                    <ul class="share-list" style="display: none;">
+                                        <li class="social-share twitter"><span class="icon-twitter"></span></li>
+                                        <li class="social-share facebook"><span class="icon-facebook"></span></li>
+                                        <li class="social-share linkedin"><span class="icon-linkedin"></span></li>
+                                        <li class="social-share instagram"><span class="icon-instagram"></span></li>
+                                        <li class="social-share mail"><span class="icon-mail"></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="">
+            <div class="container contentWrapper">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="">
+                            <div class="container">
+                                <h2 class="pagetitle">
+                                    عناصر النموذج
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12">
+
+                        
+                                <div class="clr"></div>
+
+
+              
+
+                                <br />
+                      
+                                <br />
+                                <br />
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                        <div class="card-header" id="headingOne">
+                                            <h2 class="mb-0">
+                                                <button class="btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    عنوان تبويب مفتوح
+                                                </button>
+                                            </h2>
+                                        </div>
+
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ... وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+                                                <br />
+                                                <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ... وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="headingTwo">
+                                            <h2 class="mb-0">
+                                                <button class=" btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    عنوان تبويب مغلق
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ... وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+                                                <br />
+                                                <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ... وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+                                                <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ... وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+                                                <br />
+                                                <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ... وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+                                                <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ... وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+                                                <br />
+                                                <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم مطبوعه ... بروشور او فلاير على سبيل المثال ... او نماذج مواقع انترنت ... وعند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <br />
+                     
+                                <br />
+
+                
+                                <div class="clr"></div>
+                                <br />
+
+
+                           
+
+                                <br />
+
+                        
+
+                                <br />
+
+
+
+
+                                <br />
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+
+
+                <div class="row">
+                    <div class="col-md-12  col-sm-12">
+                        <div class="shareWrapper">
+                            <div class="row">
+                                <div class="col-md-6  col-sm-12">
+                                    <div class="lastEdit">
+                                        <i class="icon-clock"></i>  آخر تعديل: 04/08/2018 02:11 م
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="rateWrapper">
+                                        <div class="rating page-rating" role="optgroup">
+                                            <span class="ratingText">تقييم المحتوى </span>
+                                            <i class="icon-star" id="rating-1" data-rating="1" tabindex="0" aria-label="Rate as one out of 5 stars" role="radio"></i>
+                                            <i class="icon-star" id="rating-2" data-rating="2" tabindex="0" aria-label="Rate as two out of 5 stars" role="radio"></i>
+                                            <i class="icon-star" id="rating-3" data-rating="3" tabindex="0" aria-label="Rate as three out of 5 stars" role="radio"></i>
+                                            <i class="icon-star" id="rating-4" data-rating="4" tabindex="0" aria-label="Rate as four out of 5 stars" role="radio"></i>
+                                            <i class="icon-star-empty" id="rating-5" data-rating="5" tabindex="0" aria-label="Rate as five out of 5 stars" role="radio"></i>
+                                            &nbsp;&nbsp; <span id="ctl00_PlaceHolderMain_g_3c9a0f1c_550e_40f2_9a58_e60ace1f1089_ctl00_numberOfVotes" class="ratingText"></span>
+                                        </div>
+                                        <div class="rateVotesNoWrapper">
+                                            <span class="ratingText">عدد الأصوات</span>
+                                            <span class="voteNoText">75</span>
+                                        </div>
+                                        <a href="#" class="sendComment"><i class="icon-chat"></i>أرسل تعليق</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-10 col-sm-12 col-md-offset-1">
+                        <div class="contentSliderWrapper">
+                            <!-- Swiper -->
+                            <div class="swiper-container contentSlider" dir="rtl">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="swiper-slide-img" style="background-image:url('images/slider1.jpg')"> </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper-slide-img" style="background-image:url('images/slider2.jpg')"> </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="https://www.youtube.com/embed/h9ZDpBEQYlg" class="swiper-slide-img videoLnk" style="background-image:url('images/image1.jpg')"> </a>
+                                    </div>
+                                </div>
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next swiper-button-white"></div>
+                                <div class="swiper-button-prev swiper-button-white"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-10 col-sm-12 col-md-offset-1">
+                        <div class="photosGallerySTWrapper">
+                            <div class="swiper-container gallery-topST">
+                                <div class="swiper-wrapper">
+                                    <a class="swiper-slide videoLnk" href="https://www.youtube.com/embed/h9ZDpBEQYlg" style="background-image:url(images/slider1.jpg)"></a>
+                                    <a class="swiper-slide albumLnk fancybox-media" style="background-image:url(images/slider2.jpg)" href="images/slider2.jpg"></a>
+                                    <a class="swiper-slide albumLnk fancybox-media" style="background-image:url(images/slider3.jpg)" href="images/slider3.jpg"></a>
+                                    <a class="swiper-slide albumLnk fancybox-media" style="background-image:url(images/slider1.jpg)" href="images/slider1.jpg"></a>
+                                    <a class="swiper-slide albumLnk fancybox-media" style="background-image:url(images/slider2.jpg)" href="images/slider2.jpg"></a>
+                                    <a class="swiper-slide albumLnk fancybox-media" style="background-image:url(images/slider3.jpg)" href="images/slider3.jpg"></a>
+                                    <a class="swiper-slide albumLnk fancybox-media" style="background-image:url(images/slider1.jpg)" href="images/slider1.jpg"></a>
+                                    <a class="swiper-slide albumLnk fancybox-media" style="background-image:url(images/slider2.jpg)" href="images/slider2.jpg"></a>
+                                    <a class="swiper-slide albumLnk fancybox-media" style="background-image:url(images/slider3.jpg)" href="images/slider3.jpg"></a>
+                                    <a class="swiper-slide albumLnk fancybox-media" style="background-image:url(images/slider1.jpg)" href="images/slider1.jpg"></a>
+                                </div>
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next swiper-button-white"></div>
+                                <div class="swiper-button-prev swiper-button-white"></div>
+                            </div>
+                            <div class="swiper-container gallery-thumbsST">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="background-image:url(images/slider1.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/slider2.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/slider3.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/slider1.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/slider2.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/slider3.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/slider1.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/slider2.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/slider3.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(images/slider1.jpg)"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="newsLetter">
+                        <h4>النشرة البريدية</h4>
+                        <div class="newsletterfrom">
+                            <input type="email" class="txtbox" placeholder="أدخل بريدك الالكتروني" />
+                            <input type="submit" class="nlbtn" title="إشترك" value="إشترك" />
+                        </div>
+                    </div>
+
+                    <div class="footerApps">
+                        <h4>تطبيق تأكد</h4>
+                        <a href="#?"><img src="images/footerGooglePlay.svg" title="جوجل بلاي" /></a>
+                        <a href="#?"><img src="images/footerAppStore.svg" title="آب ستور" /></a>
+
+                    </div>
+                    <div class="socialMedia">
+                        <h4>تابعنا على</h4>
+                        <a href="#?"><i class="icon-instagram"></i></a>
+                        <a href="#?"><i class="icon-youtube-play"></i></a>
+                        <a href="#?"><i class="icon-facebook"></i></a>
+                        <a href="#?"><i class="icon-snapchat-ghost"></i></a>
+                        <a href="#?"><i class="icon-twitter"></i></a>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-sm-6 col-xm-12">
+                    <div class="footerlinks inner">
+                        <h4>روابط سريعة</h4>
+                        <a href="#?">رؤية ورسالة الهيئة</a>
+                        <a href="#?">فروع الهيئة</a>
+                        <a href="#?">الهيكل التنظيمي</a>
+                        <a href="#?">إنجازات</a>
+                        <a href="#?">الهيئة</a>
+                        <a href="#?">كلمة محافظ الهيئة</a>
+                        <a href="#?">خدمات التاجر</a>
+                        <a href="#?">خدمات المستهلك </a>
+                        <a href="#?">جميع الخدمات</a>
+                        <a href="#?">منصة الخدمات الحكومية الموحدة</a>
+                        <a href="#?">التوظيف</a>
+                        <a href="#?">المواصفات</a>
+                        <a href="#?">القياس</a>
+                        <a href="#?">المعايرة</a>
+                        <a href="#?">الجودة</a>
+                        <a href="#?">منح الشهادات</a>
+                        <a href="#?">المطابقة</a>
+                        <a href="#?">المختبرات</a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="carecenter Acenter">
+                        <h4>اتصل بنا</h4>
+                        <p class="Acenter"><i class="icon-phone-1"></i>الرقم الموحد<span class="phone"><a href="tel:920009085">920009085</a></span></p>
+                        <p class="Acenter"><i class="icon-mail"></i>البريد الإلكتروني<span class="mail"><a href="mailto:info@saso.gov.sa">info@saso.gov.sa</a></span></p>
+                        <div class="custcallcenter inner">
+                            <p>الرياض - حي المحمدية - أمام جامعة الملك سعود</p>
+                            <p>ص.ب 3437 الرياض 11471 المملكة العربية السعودية</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row footer-copyright-wrapper">
+                <div class="col-md-5 col-sm-12">
+                    <div class="copyRights">
+                        جميع الحقوق محفوظة للهيئة السعودية للمواصفات والمقاييس والجودة  © 2019
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-12 Aleft">
+                    <span class="footerLinks">
+                        <a href="#">سياسة وشروط الخصوصية</a> |
+                        <a href="#">أحكام الإستخدام</a> |
+                        <a href="#">الأسئلة المتكررة</a> |
+                        <a href="#">خارطة  الموقع</a>
+
+                    </span>
+                    <span class="footerLogo">
+                        <img src="styles/images/footervision.svg" alt="" title="">
+                        <img src="styles/images/footerlogo.svg" alt="" title="">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:;" class="gototop">
+            <i class="icon-up-circle"></i>
+        </a>
+    </footer>
+
+
+</body>
+
+</html>

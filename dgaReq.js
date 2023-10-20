@@ -53,6 +53,14 @@ $(document).ready(function () {
     if ($('.branchesV2').length) {
         selectMenu()
     }
+    if ($('.serveyV2').length) {
+        $(".serveyV2 .servey-a").click(function () {
+            $('.serveyBoxRate').children().addClass('show-servey')
+        })
+        $(".closeRateUs").click(function () {
+            $('.serveyBoxRate').children().removeClass('show-servey')
+        })
+    }
     // AO jumping links
     if ($('.ds-sideNavigation-content').length) {
 
@@ -83,6 +91,42 @@ $(document).ready(function () {
             });
         });
     }
+    // <!-- Initialize Swiper -->
+    let swiperNewsHome = new Swiper(".swiperNewsHome", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    let awareness1 = new Swiper(".awareness1", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    let awareness2 = new Swiper(".awareness2", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    let awareness3 = new Swiper(".awareness3", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+
+
 
 });
 

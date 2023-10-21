@@ -2,15 +2,13 @@ AO
 ------------
 --------------------- NAUSS saso Issues
   
-in progress ----> 6 and 18 and cards page and 4 
+in progress ----> 6 and 18 and cards page and 4 and  16 the rest of page responsive and EN
 
 MM
 -----------------
-- 19 responsive
+- 19 and statisties page and menu responsive(statisties,contactUs,services,menu  )
 
 Done 
 ----------
 14 - 17
 
-Osama
-- 16

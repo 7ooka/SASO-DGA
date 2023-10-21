@@ -63,7 +63,7 @@ $(document).ready(function () {
     }
     // AO jumping links
     if ($('.ds-sideNavigation-content').length) {
-
+  
         const menuLinks = $('.JumpLink  a');
 
         menuLinks.on('click', function (event) {
@@ -84,13 +84,21 @@ $(document).ready(function () {
                 const targetSection = $(targetId);
                 console.log(targetSection.offset().top)
                 if (targetSection.offset().top - 80 <= currentScrollPos && (targetSection.offset().top - 80 + targetSection.height()) > currentScrollPos) {
-                    $(this).addClass('active');
+                    $(this).parent().addClass('active');
                 } else {
-                    $(this).removeClass('active');
+                    $(this).parent().removeClass('active');
                 }
             });
         });
+  
+        if($(window).width() < 992) {
+            $('.ds-sideNavigation-content').append('<i class="icon-tiny-arrow-down"></i>');
+            $('.ds-sideNavigation-content .icon-tiny-arrow-down').click(function() {
+                $('.ds-sideNavigation-content').toggleClass('showJubingList')
+            })
+        }
     }
+  
     // <!-- Initialize Swiper -->
     let swiperNewsHome = new Swiper(".swiperNewsHome", {
         slidesPerView: 3,
@@ -99,6 +107,19 @@ $(document).ready(function () {
           el: ".swiper-pagination",
           clickable: true,
         },
+        breakpoints: {
+            // When viewport width is 576px or less
+            300: {
+              slidesPerView:1,
+            },
+            // When viewport width is 992px or less
+            772: {
+              slidesPerView: 2,
+            },
+            992: {
+                slidesPerView: 3,
+              },
+          }
       });
     let awareness1 = new Swiper(".awareness1", {
         slidesPerView: 1,

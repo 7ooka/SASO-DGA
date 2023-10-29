@@ -1,0 +1,67 @@
+ // let count = 0;
+    // $("#fontSmall").click(function(e) {
+   
+    //     count -= 1;
+    //     // console.log(count);
+    //     if (count == -3) {
+    //       $(this).toggleClass('click'); 
+    //     }
+    //     $(".fontIncrease").removeClass('click')
+    //     $("div").not(".top-nav div").children().each(function() {
+    //       var size = parseInt($(this).css("font-size"));
+    //       size = size - 1 + "px";
+          
+    //       $(this).css({
+    //         'font-size': size
+    //       });
+    //     });
+    //     e.stopPropagation();
+    //   });
+    //   $("#fontLarge").on("click",function(e) {
+    //     count += 1;
+    //     // console.log(count);
+    //     if (count >= 3) {
+    //       $(this).toggleClass('click'); 
+    
+    //     }
+    //     $(".fontDecrease").removeClass('click')
+    //     $("div").not(".top-nav div").children().each(function() {
+    //       var size = parseInt($(this).css("font-size"));
+    //       size = size + 1 + "px";
+    //       $(this).css({
+    //         'font-size': size
+    //       });
+    //     });
+    //     e.stopPropagation();
+    //   });
+
+
+
+        /* --- Font sizing Function --- */
+        $('#fontLarge').click(function(){
+            console.log("increase");
+            modifyFontSize('html','increase');
+          });
+          $('#fontSmall').click(function(){
+            console.log("dec");
+            modifyFontSize('html','decrease')
+          });
+    
+            /*----Font sizing Function ---*/
+      function modifyFontSize(MyElement,flag){
+    
+        var HtmlElement = $(MyElement);
+        var currentFontSize = parseInt (HtmlElement.css('font-size'));
+        
+        if (flag =='increase' & currentFontSize < 13 )
+            currentFontSize += 1;
+        else if (flag == 'decrease' & currentFontSize >= 7 )
+            currentFontSize -= 1;
+        else if (flag == 'reset')
+        currentFontSize = 16;
+    
+        HtmlElement.css('font-size', currentFontSize);
+    
+        // console.log(currentFontSize);
+    
+      }

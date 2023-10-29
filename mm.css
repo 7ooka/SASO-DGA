@@ -1,23 +1,284 @@
-@media(max-width:1400px){
-    
+.service-tabsDga .serv-item .servicon {
+    position: relative;
+}
+.service-tabsDga .serv-item .servicon::after {
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 35px;
+    right: -15px;
+    top: -10px;
+    background-color: #d8ece4;
+    border-radius: 50px;
+    z-index: -1;
+}
+.new-footerV2 .align-items-space-between-custom .second-section {
+    padding-top: 15px;
+}
+.mainslider.bannerDga .silder-item .slider-caption .primaryBtnSaso {
+    color: #585858 !important;
+}
+.mainslider.bannerDga .silder-item .slider-caption .primaryBtnSaso:hover {
+    color: #fff !important;
+}
+.service-tabsDga .serv-item:hover {
+    border: 1px solid #238c5f;
+}
+.serveyBoxRate.servey .pollWp .top-area h4 {
+    color: #444a52 !important;
+}
 
+.serveyBoxRate.servey .text-flex .primaryBtnSaso {
+    color: #fff;
+    min-width: 120px;
+}
 
+body .serveyBoxRate.servey .text-flex .secondaryBtnSaso {
+    border: 1px solid #3CA078 !important;
+}
+.header-wrapper .topnav .navbar-nav .nav-item.MainTabIsActive > a {
+    background-color: #066058;
+}
+.header-wrapper .topnav .navbar-nav .nav-item.MainTabIsActive > a::before {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    background-color: #3CA078;
+    transition: 300ms;
+}
+.innerpages .rateWrapper .icon-star.active:before {
+    color: #066058 !important;
+}
+.innerpages .breadCrumb {
+    background: #066058;
+}
+body .innerpages .contentWrapper ul li:before {
+    color: #3ca078 !important;
+}
+ .rateWrapper .icon-star-empty:not(.icon-star-half-alt,.active):before {
+    color: #707070;
+}
+.innerpages .rateWrapper .rating {
+    max-width: unset !important;
+}
+.innerpages .shareWrapper .lastEdit .icon-clock,
+.innerpages .shareWrapper .lastEdit {
+    color: #242424 !important;
+}
+.innerpages .contactUsFrom  .primaryBtnSaso,
+.ajax-progress .Acenter input.btnbrown {
+    background: #066058 !important;
+    border-radius: 10px;
+}
+.innerpages .contactUsFrom  .primaryBtnSas:hover,
+.ajax-progress .Acenter input.btnbrown:hover {
+    background: #3CA078 !important;
+}
+
+body .container.contentWrapper.contentdiv .col-lg-3 + .col-lg-9 .ms-rtestate-field h3,
+body .container.contentWrapper.contentdiv .col-lg-3 + .col-lg-9 .ms-rtestate-field#ctl00_PlaceHolderMain_ctl02__ControlWrapper_RichHtmlField  div div h3 {
+    color: #58595B !important;
+}
+.branchesDetailsWapper .breanchBox .BTxt .blueColor {
+    color: #3CA078 !important;
+}
+body #ctl00_PlaceHolderMain_ctl02__ControlWrapper_RichHtmlField .branchesV2 .branchesDetailsWapper .breanchBox .BTxt h3.font18 {
+    color: #464749 !important;
+}
+.followUS .FlUS li::before {
+    display: none;
+}
+.fullWidthBGContantUs {
+    background-color: rgba(60, 160, 120, 0.05) !important;
+}
+.header-wrapper .topnav .navbar-nav .nav-item > a {
+    justify-content: unset;
+}
+.contactUsFrom  .primaryBtnSaso {
 
 }
-@media(max-width:1199.98px){
-
-
+.footer-bg, .last-footer, footer.new-footer .top-footer {
+    margin-top: unset;
+}
+ footer.new-footerV2 {
+    margin-top: 30px;
+}
+.new-footerV2 .forFlexFooter {
+    flex-wrap: wrap;
+}
+.new-footerV2 .appFooterV2 .forFlexFooter a {
+    margin-bottom: 5px;
 }
 
-
-@media(max-width:991.98px){
-   
-
-
-
-
-}
 @media(max-width:767.98px){
+    .navbar-toggler:focus, .navbar-toggler:hover {
+        background: #066058;
+    }
+    .servey .pollWp .top-area h4 {
+        font-size: 20px;
+    }
+    .serveyBoxRate.servey .pollWp .top-area .closeRateUs img {
+        margin-inline-end: 0;
+        width: 12px;
+    }
+    .serveyBoxRate.servey .pollWp.hidden-servey {
+        right: 10px;
+    }
+    body .serveyBoxRate.servey .text-flex .secondaryBtnSaso,
+    .serveyBoxRate.servey .text-flex .primaryBtnSaso {
+        min-width: 100px;
+        font-size: 14px;
+        min-height: 39px;
+    }
+    .serveyBoxRate.servey .pollWp.hidden-servey {
+        top: -339px;
+    }
+    .servey .pollWp .pollInner ul label, .servey .pollWp .pollInner > table label {
+        font-size: 12px !important;
+    }
+    .servey .pollWp .pollQestion, .pollWp .question {
+        font-size: 14px;
+    }
+    .p16, .mainBoxV2.mainBoxV2WithPragh .p16 {
 
+    }
+    .service-tabsDga .nav-tabs > li a {
+        font-size: 15px !important;
+    }
+    .service-tabsDga .nav-tabs {
+        width: 100%;
+    }
+    .onload-image .content .content-box {
+        width: 90%;
+    }
+    .navbar-toggler {
+        background: #066058;
+    }
+    .new-footerV2 .forFlexFooter {
+        flex-wrap: wrap;
+    }
+    .ds-navbarWrapper .ds-navdropdown-header {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .ds-navbar.sticky-top-custom .navbar-collapse.pt-2 {
+        background: #066058;
+        margin: 0;
+    }
 
 }
+
+
+
+/* M Mousa fixes Oct 22 2023 */
+
+.BoxWhiteST {
+    min-height: 150px;
+    height: auto;
+}
+
+a.bluBtnConST {
+    background-color: #066058;
+    display: inline-block;
+    padding: 7px 15px;
+    padding-right: 40px;
+    background-size: 25px;
+    background-position: 90% center;
+}
+h5{
+    color:#066058;
+}
+.BoxWhiteST p,
+.BoxWhiteST p span{
+    line-height: 1.5;
+}
+
+.service-det-main p,
+.service-det-main .links{
+    width: 65%;
+} 
+
+
+.services-tabs .nav .nav-link.active {
+    border-bottom: 3px solid #3CA078 !important;
+}
+
+
+@media(min-width:992px){
+    .services-sideCard {
+        transform: translateY(-25%);
+    }
+}
+
+
+.ratingV2 .ratedCurrent p {
+    display: flex;
+    flex-direction: row;
+}
+
+.innerpages .rateWrapper .rating {
+    margin-top: 5px !important;
+    border: 0;
+    max-width: 100px;
+}
+
+.ratingV2 .ratedCurrent p span + span {
+    margin-right: 10px;
+}
+/* end M Mousa Fixes */
+/*----------------------------------------------new ---------------------------------------------------------*/
+
+
+
+
+select.form-control.invalidErr  + .select2-container {
+    border: 1px solid #AF0818 !important;
+}
+.standardsListingItem h3 {
+    color: #242424 !important;
+}
+.mainslider.bannerDga .swiper-button-next, .mainslider.bannerDga .swiper-button-prev {
+    display: none !important;
+}
+body .container.contentWrapper.contentdiv .col-lg-3 + .col-lg-9 .ajax-progress h4 {
+    color: #242424 !important;
+}
+@media (max-width: 767.98px) {
+    .innerpages .contactUsFrom .primaryBtnSaso, .ajax-progress .Acenter input.btnbrown {
+        padding: 10px 30px !important;
+        height: 43px;
+        font-size: 14px !important;
+        min-width: unset !important;
+    }
+    .ds-navbar.sticky-top-custom .navbar-collapse.pt-2 {
+        padding: 0;
+    }
+    .ds-navbarWrapper .navbar-collapse.pt-2 .ds-navdropdown-header {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .innerpages .srchPanel .form-inline {
+        float: unset;
+        width: 100%;
+    }
+    .innerpages .srchPanel .form-inline .form-group {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

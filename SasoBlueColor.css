@@ -1,0 +1,762 @@
+/*
+old color #06a8e2 
+new color #066058
+*/
+/*.innerpages .breadCrumbShareWrapper .share-list li span,*/
+
+.innerpages div.pagination a,
+.innerpages div.pagination .default-pager-current,
+.innerpages div.pagination span,
+.ajax-progress h4,
+
+.innerpages .breadCrumbFunctions .breadCrumbFunctionsWrapper a i,
+.newsListItem .more,
+.newsListItem .more:hover,
+.innerpages .shareWrapper .lastEdit i,
+.serviceswrapper .servs-group .musrvtitle,
+.innerpages .table a,
+.innerpages .grid a,
+.innerpages .rating i,
+.innerpages .accordion .card .card-header h2 .btn-link,
+.innerpages .shareWrapper .lastEdit,
+.serviceswrapper .wptitle,
+/*.home-content .wptitle,*/
+.rs_addtools .rsbtn_play .rsbtn_right,
+.rsbtn .rsbtn_play .rsbtn_right,
+.ms-rtestate-field ul li:before,
+.service-tabs .more,
+.serviceswrapper .wptitle .more,
+.ms-rtestate-field h3,
+h3.ms-rteElement-H3,
+.ms-rtestate-field h4,
+h3.ms-rteElement-H4,
+.subfilter-hero .subfilter-btn,
+.publicConsultationListItem label,
+.eventsListingItem .eventDate .eventStartDate .eventDateDay,
+.eventsListingItem .eventDate .eventStartDate,
+#ctl00_PlaceHolderMain_ctl02__ControlWrapper_RichHtmlField span strong,
+#ctl00_PlaceHolderMain_ctl02__ControlWrapper_RichHtmlField div span,
+#ctl00_PlaceHolderMain_ctl02__ControlWrapper_RichHtmlField div div h3,
+.ms-rteFontSize-2 span strong,
+.innerpages .srchPanel .control-label,
+.innerStatisticsItem .innerStatisticsItemNo,
+.productsAwarenessListItem:hover h2,
+.innerStatisticsItem i,
+.header-wrapper .top-functions .searchbox .search3,
+.innerpages div.pagination a.Last:before,
+.innerpages div.pagination .default-pager-current.Last:before,
+.innerpages div.pagination span.Last:before,
+.innerpages div.pagination a.Next:before,
+.innerpages div.pagination .default-pager-current.Next:before,
+.innerpages div.pagination span.Next:before,
+.innerpages div.pagination a.First:before,
+.innerpages div.pagination .default-pager-current.First:before,
+.innerpages div.pagination span.First:before,
+.innerpages div.pagination a.Previous:before,
+.innerpages div.pagination .default-pager-current.Previous:before,
+.innerpages div.pagination span.Previous:before,
+p span strong,
+h3 {
+    color: #066058 !important;
+}
+
+.publicConsultationListItem span.active {
+    color: #00bcff;
+}
+
+.innerpages .breadCrumbShareWrapper .breadCrumbShareWrapper-dropdown .breadCrumbShareWrapper-toggle,
+.innerpages div.pagination span,
+.photoListingItem:before,
+.service-tabs .more>i,
+.service-tabs .nav-tabs>li:hover a,
+.service-tabs .nav-tabs>li a.active,
+.serv-subfilter-wrapper .subfilter-btn.active,
+.innerpages ul.lst li:before,
+.innerpages ul.list li:before,
+.innerpages .ArticleContent ul li:before,
+.innerpages .contentWrapper ul li:before,
+.innerpages .pagetitle h2:after {
+    background: #066058 !important;
+
+}
+
+
+.ajax-progress .Acenter input.btnbrown,
+.videoListingImage:after,
+.innerpages .btn:not(div),
+.innerpages .gbuttontb {
+    background-color: #066058 !important;
+}
+
+.service-tabs .nav-tabs>li a.active:after {
+    border-top: 10px solid #066058;
+}
+
+.innerpages .rightBorderTxt1 {
+    border-right: 3px solid #066058;
+}
+
+.innerStatisticsItem i {
+    border: 1.2px solid #066058;
+}
+
+.header-wrapper .top-functions .searchbox input,
+.innerpages div.pagination a,
+.innerpages div.pagination .default-pager-current,
+.innerpages div.pagination span,
+.service-tabs .nav-tabs>li a {
+
+    border: 1px solid #066058 !important;
+}
+
+.serv-subfilter-wrapper .subfilter-btn.active {
+    box-shadow: 0px 1px 4px 0px rgb(245 250 248 / 50%);
+}
+
+.serv-subfilter-wrapper .subfilter-btn:hover {
+    background: #cee9f8;
+}
+
+.serv-subfilter-wrapper .subfilter-btn:hover {
+    background: #cee9f8;
+    color: #464749;
+    box-shadow: 0px 1px 4px 0px rgb(6 168 226 / 25%);
+}
+
+.innerpages .accordion .card .card-header h2 .btn-link {
+    /*  filter: invert(57%) sepia(97%) saturate(3406%) hue-rotate(163deg) brightness(99%) contrast(95%);*/
+}
+
+
+/* for tables */
+.innerpages .table>thead>tr>th,
+.innerpages .grid>thead>tr>th,
+.innerpages .table>tbody>tr>th,
+.innerpages .grid>tbody>tr>th {
+    background: #066058;
+}
+
+
+
+
+.rulesAndRegulationsListItem:hover {
+    position: relative
+}
+
+.la2e7a-item .la2e7a-details a.download-a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.la2e7a-item .la2e7a-details span.download-a {
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    background-color: #0096B6;
+    color: #fff;
+    padding: 10px 27px;
+    border-radius: 25px;
+    transition: 500ms;
+
+
+}
+
+.serviceListItem span {
+    background-color: #066058;
+    color: #fff;
+}
+
+.serviceListItem span.laeha {
+    position: absolute;
+    bottom: 30px;
+    left: 35%;
+    background-color: #066058;
+    color: #fff;
+    padding: 10px 27px;
+    border-radius: 25px;
+    transition: 500ms;
+    width: auto !important;
+}
+
+.la2e7a-item .la2e7a-details span.download-a:hover,
+.serviceListItem span:hover,
+.serviceListItem span:hover {
+    background-color: #16a3a5;
+}
+
+.la2e7a-item .la2e7a-details span.show-a {
+    background-color: #fff;
+    color: #0096B6;
+    border: 1px solid #0096B6;
+    padding: 10px 27px;
+    border-radius: 25px;
+    transition: 500ms;
+}
+
+.la2e7a-item .la2e7a-details span.show-a:hover {
+    background-color: #16a3a5;
+    color: #fff;
+    border: none
+}
+
+.footer .carecenter i,
+.footer .carecenter .phone a,
+.footer .carecenter i,
+.footer .carecenter .mail a,
+.serv-subfilter-wrapper .subfilter-btn.active {
+    color: #fff !important;
+
+}
+
+.innerpages .accordion .card .card-header h2 .btn-link.collapsed {
+    color: #a9a9a9 !important;
+}
+
+.innerpages .breadCrumbFunctions .breadCrumbFunctionsWrapper a:hover i {
+    color: #3ca078 !important;
+}
+
+.serv-subfilter-wrapper .subfilter-btn:hover {
+    box-shadow: rgba(6, 168, 226, 0.25) 0px 1px 4px 0px;
+    color: rgb(255, 255, 255) !important;
+    background: rgb(6, 165, 223) !important;
+}
+
+.contentdiv .DDLFilter.items-count>.form-group {
+    margin-bottom: 0px !important;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+}
+
+/* new interactive */
+.ds-navbarWrapper .ds-navdropdown a.ds-navdropdown-header,
+.ds-sideNavigation-content .JumpLink .nav-jump-link {
+    text-decoration: unset !important;
+}
+.onload-image .content .content-box h4 {
+    color: #58595B !important;
+}
+
+.recentNews-modal .recent-list .recent-item .lastEdit,
+.recentNews-modal .recent-list .recent-item h4 {
+    color: #066058;
+}
+.sitemapParent .SMWapper > .SMList::-webkit-scrollbar-track,
+.TechRegDetails .TRDContent::-webkit-scrollbar-track,
+.recentNews-modal .recent-list::-webkit-scrollbar-track {
+    background: #C7C9CB;
+}
+
+/* Handle */
+.sitemapParent .SMWapper > .SMList::-webkit-scrollbar-thumb,
+.TechRegDetails .TRDContent::-webkit-scrollbar-thumb,
+.recentNews-modal .recent-list::-webkit-scrollbar-thumb {
+    background: #066058;
+}
+
+/* Handle on hover */
+.sitemapParent .SMWapper > .SMList::-webkit-scrollbar-thumb:hover,
+.TechRegDetails .TRDContent::-webkit-scrollbar-thumb:hover,
+.recentNews-modal .recent-list::-webkit-scrollbar-thumb:hover {
+    background: #0660588a;
+    cursor: pointer;
+}
+
+/***************************/
+a {
+    color: #242424;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #066058;
+}
+
+.header-wrapper .topnav .navbar-nav .nav-item>a {
+    text-decoration: unset;
+}
+/* filter */
+.TechRegDetails .printSrc a img,
+.guiding a img ,
+.popup-details .resp .resp-det .name .img-box img,
+.contentWrapper .opened-data img,
+.sec-pagetitle .main-icon img,
+.popup-details .resp .resp-det .contact a img,
+.share-list .social-share a span,
+.innerpages .breadCrumbShareWrapper .breadCrumbShareWrapper-dropdown .breadCrumbShareWrapper-toggle.active .breadCrumbShareWrapper-rotate,
+.publicConsultationListItem .publicConsultationListItemIconWrapper .publicConsultationListItemIcon,
+.calender-modal .datepicker table tbody tr:first-child td table tbody tr td:last-of-type a,
+.calender-modal .datepicker table tbody tr:first-child td table tbody tr td:first-of-type a {
+    filter: invert(71%) sepia(48%) saturate(830%) hue-rotate(153deg) brightness(60%) contrast(95%);
+}
+
+.innerpages .contentWrapper .opened-data .tab-pane ul strong,
+.ajax-progress h4,
+.innerpages .breadCrumbFunctions .breadCrumbFunctionsWrapper a i,
+.newsListItem .more,
+.newsListItem .more:hover,
+.innerpages .shareWrapper .lastEdit i,
+.serviceswrapper .servs-group .musrvtitle,
+.innerpages .table a,
+.innerpages .grid a,
+.innerpages .rating i,
+.innerpages .accordion .card .card-header h2 .btn-link,
+.innerpages .shareWrapper .lastEdit,
+.serviceswrapper .wptitle,
+.home-content .wptitle,
+.rs_addtools .rsbtn_play .rsbtn_right,
+.rsbtn .rsbtn_play .rsbtn_right,
+.ms-rtestate-field ul li:before,
+.service-tabs .more,
+.serviceswrapper .wptitle .more,
+.ms-rtestate-field h3,
+h3.ms-rteElement-H3,
+.ms-rtestate-field h4,
+h3.ms-rteElement-H4,
+.subfilter-hero .subfilter-btn,
+.publicConsultationListItem label,
+.eventsListingItem .eventDate .eventStartDate .eventDateDay,
+.eventsListingItem .eventDate .eventStartDate,
+#ctl00_PlaceHolderMain_ctl02__ControlWrapper_RichHtmlField span strong,
+#ctl00_PlaceHolderMain_ctl02__ControlWrapper_RichHtmlField div span,
+#ctl00_PlaceHolderMain_ctl02__ControlWrapper_RichHtmlField div div h3,
+.ms-rteFontSize-2 span strong,
+.innerpages .srchPanel .control-label,
+.innerStatisticsItem .innerStatisticsItemNo,
+.productsAwarenessListItem:hover h2,
+.innerStatisticsItem i,
+.sitemapParent .SMWapper .SMHead .SMTitle,
+.header-wrapper .top-functions .searchbox .search3,
+.innerpages div.pagination a.Last:before,
+.innerpages div.pagination .default-pager-current.Last:before,
+.innerpages div.pagination span.Last:before,
+.innerpages div.pagination a.Next:before,
+.innerpages div.pagination .default-pager-current.Next:before,
+.innerpages div.pagination span.Next:before,
+.innerpages div.pagination a.First:before,
+.innerpages div.pagination .default-pager-current.First:before,
+.innerpages div.pagination span.First:before,
+.innerpages div.pagination a.Previous:before,
+.innerpages div.pagination .default-pager-current.Previous:before,
+.innerpages div.pagination span.Previous:before,
+p span strong,
+h3 {
+    color: #066058 !important;
+}
+.evaluateClass .evaluateForm .innerpages .radio label .checkmark::after {
+    top: 3px;
+    right: 3px;
+    background:  #066058 !important;
+}
+.fixed-popups button {
+    border-radius: 5px;
+}
+
+.fixed-popups button:hover {
+    background-color: #066058;
+}
+
+.fixed-popups button:hover img {
+    filter: brightness(5);
+
+}
+
+.fixed-popups .new-feeds button {
+    background-color: #066058;
+    border: 3px solid rgb(153 220 235 / 40%);
+
+}
+
+.tooltip-inner {
+    background: #000 !important;
+    color: #fff;
+}
+
+.bs-tooltip-right .arrow::before {
+    border-right-color: #000 !important;
+}
+
+.minster-speach .content-box {
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.015) !important;
+    background-color: #066058 !important;
+    color: #fff;
+}
+
+.qualifications .work-history .time-line_item .date-container .date-text {
+    background-color: #066058;
+    border-radius: 5px;
+}
+
+.NewLineBTW .pontN {
+    background: #066058;
+    box-shadow: 0 0 30px rgba(0, 150, 150, .3)
+}
+
+.NewLineBTW .dashN {
+    border-bottom: 3px dashed #066058;
+}
+
+.NewLineBTW .boxNLW::after {
+    background: #066058;
+}
+
+.rulesAndRegulationsListItem:hover {
+    background: #3ca078 !important;
+}
+
+.serviceListItem:hover {
+    background: #3ca078 !important;
+    box-shadow: 0 10px 35px 10px rgb(0 0 0 / 8%);
+}
+
+.serv-subfilter-wrapper .subfilter-btn:hover {
+    background: #3ca078 !important;
+}
+
+.innerpages div.pagination a:hover,
+.innerpages div.pagination .default-pager-current:hover,
+.innerpages div.pagination span:hover {
+    background-color: #3ca078;
+    color: #fff !important;
+
+}
+
+.innerpages #ctl00_PlaceHolderMain_ctl02__ControlWrapper_RichHtmlField span.date-text,
+.card-body li {
+    background: #066058 !important;
+}
+
+.rulesAndRegulationsListItem:hover .download-a,
+.serviceListItem:hover span {
+    background: #fff !important;
+    color: #066058 !important;
+}
+
+.serv-subfilter-wrapper .subfilter-btn.active {
+    background: #066058 !important;
+}
+
+.serv-subfilter-wrapper .subfilter-btn:hover {
+    background: #3ca078 !important;
+}
+
+.innerpages .warning.warning2 {
+    background-color: #066058;
+    border-color: #066058;
+}
+
+.branchListItem h2 {
+    color: #066058;
+}
+
+.innerpages .col-sm-6 .breadCrumbShareWrapper .breadCrumbShareWrapper-dropdown .breadCrumbShareWrapper-toggle {
+    background: #066058 !important;
+}
+
+/* .header-wrapper {
+    background-color: #066058 !important;
+} */
+.videoListingItem:hover .videoListingTitle {
+    color: #066058;
+}
+
+input[type=radio]:checked+label:after,
+input[type=checkbox]:checked+label:after {
+    background: #3ca078;
+}
+
+.eventsListingMainItem {
+    background: #066058;
+    -webkit-box-shadow: 0 15px 50px 15px rgba(0, 150, 182, 0.22);
+    box-shadow: 0 15px 50px 15px rgba(0, 150, 182, 0.22);
+}
+
+.photoListingItem:hover .photoListingTitle {
+    color: #18754D;
+}
+
+.tableProject thead tr:first-of-type {
+    background: #066058;
+}
+
+.opened-data .table>thead>tr>th,
+.opened-data .grid>thead>tr>th,
+.opened-data .table>tbody>tr>th,
+.opened-data .grid>tbody>tr>th {
+    background: #18754D;
+}
+
+
+
+body h3.NonComTitle,
+.TechRegDetails .TRDContent .TRDTitle,
+.modal-large .modal-body h3,
+.branchListItem:hover h2,
+.TechRegDetails .printSrc a span {
+    color: #066058 !important;
+}
+/* btns */
+.popup-details .notes .notes-form .form-send,
+.attachments .download-attachment,
+.start-servicebtn,
+.innerpages .btn:not(div).btnbrown, .innerpages .gbuttontb.btnbrown,
+.TechRegDetails .modalBtn .btnV2,
+.notesEval .newBtnV2 {
+    background: #066058 !important;
+    border-radius: 10px;
+    text-decoration: unset;
+}
+.popup-details .notes .notes-form .form-send:hover,
+.attachments .download-attachment:hover,
+.start-servicebtn:hover,
+.innerpages .btn:not(div).btnbrown:hover, .innerpages .gbuttontb.btnbrown:hover,
+.TechRegDetails .modalBtn .btnV2,
+.notesEval .newBtnV2:hover {
+    background: #3CA078 !important;
+    text-decoration: unset;
+}
+.guiding a,
+.TechRegDetails .modalBtn .btnv2Border {
+    background: #fff !important;
+    color: #3CA078;
+    border: 1px solid #3CA078;
+}
+.guiding a:hover,
+.TechRegDetails .modalBtn .btnv2Border:hover {
+    background: #3CA078 !important;
+    color: #fff !important;
+    border: 1px solid #3CA078 !important;
+}
+
+/* form-control-rb */
+
+.service-description h5 {
+    color: #464749;
+}
+.serCostST a,
+.serGuiST a,
+#MainServicesArea .active .tabBox {
+    border: solid 1px #066058 !important;
+    background-color: #066058 !important;
+    color: #fff;
+}
+.serCostST a {
+
+}
+#MainServicesArea .blueHeadingST {
+    color: #066058 !important;
+}
+#MainServicesArea .tabBox:hover {
+    background-color: #ffffff !important;
+    color: #066058 !important;
+
+}
+.NewLineBTW .dashN {
+    border-bottom: 3px dashed #066058 !important;
+}
+
+.StaST {
+    background-color: #3CA078 !important;
+}
+
+.NewLineBTW .pontN,
+.detST:hover,
+.StaST:hover,
+.NewLineBTW .boxNLW::after,
+ .NewLineBTW .last-line::after {
+    background: #066058 !important;
+}
+#MainServicesArea .searchAreaST .serchbtn,
+#MainServicesArea .searchAreaST .serchbtn:hover {
+    background-color: #066058 !important;
+}
+
+/*MM++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.searchbox input[type='text']::placeholder {
+    font-size: 14px !important;
+}
+
+
+.searchbox .searchcontrols .closeSearch-btn {
+    top: 14px;
+}
+
+.searchbox .searchcontrols .search-btn {
+    top: 13px;
+}
+
+
+
+.error-404-wrapper .hero-msg-404 .gohome-link {
+    background: #066058;
+}
+
+.error-404-wrapper .hero-msg-404 h3 {
+    color: #066058 !important;
+}
+
+header.header-wrapper {
+    background: #066058;
+}
+body .ds-navbarWrapper {
+    padding-bottom: 50px;
+    height: 100%;
+}
+body .ds-navbarWrapper .sticky-top-custom {
+    top: 85px;
+}
+.innerpages ul.lst li a,
+.innerpages ul.list li a,
+.innerpages .ArticleContent ul li a,
+.innerpages .contentWrapper ul li a {
+    color: #066058 !important;
+    text-decoration: underline;
+}
+
+.ms-rtestate-field h1,
+h1.ms-rteElement-H1,
+.ms-rtestate-field h2,
+h2.ms-rteElement-H2 {
+    color: #066058 !important;
+}
+
+.ms-rteTable-5 tr.ms-rteTableHeaderRow-5,
+.ms-rteTable-5 tr.ms-rteTableFooterRow-5,
+.ms-rteTable-5 tr.ms-rteTableHeaderRow-5>th,
+.ms-rteTable-5 tr.ms-rteTableFooterRow-5>th,
+.ms-rteTable-5 tr.ms-rteTableFooterRow-5>td {
+    background: #066058;
+}
+
+.ms-rteTable-5,
+.ms-rteTable-5>tbody>tr>td,
+.ms-rteTable-5>tbody>tr>th {
+    border-color: #066058 !important;
+}
+
+table a {
+    color: #066058;
+    text-decoration: underline;
+}
+
+
+.videoListingItem .videoListingImage img {
+    height: 100% !important;
+}
+
+.eventsListingMainItem {
+    background-color: #066058;
+}
+
+.opened-data .table>thead>tr>th,
+.opened-data .grid>thead>tr>th,
+.opened-data .table>tbody>tr>th,
+.opened-data .grid>tbody>tr>th {
+    background-color: #066058 !important;
+}
+
+.opened-data .table>tbody>tr:hover>td,
+.opened-data .grid>tbody>tr:hover>td {
+    color: #066058 !important;
+    transition: 300ms;
+    text-decoration: underline !important;
+    background-color: #06605817 !important;
+}
+.serv-subfilter-wrapper .subfilter-btn {
+    border-radius: 5px !important;
+}
+.service-working-method h2,
+.service-description h2 {
+    color: #066058 !important;
+}
+
+
+
+
+
+/*
+		fixxxx online
+*/
+
+
+@media(max-width:1649.98px) {
+    .innerpages .breadCrumbFunctions {
+        left: -25px;
+    }
+}
+
+@media(max-width:1399.98px) {
+    .last-footer {
+        height: auto;
+    }
+
+    .serviceListItem h2 {
+        font-size: 14px;
+        line-height: 1.4;
+        padding: 20px 5px;
+    }
+
+}
+
+
+@media(max-width:1199.98px) {
+
+    .TechRegDetails .TRDContent .TRDPrag,
+    .TechRegDetails .TRDContent .TRDPrag * {
+        font-size: 16px;
+    }
+
+    .videoListingItem .videoListingTitle {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+}
+
+
+
+
+
+@media(max-width:991.98px) {
+    .innerpages .pagetitle h2 {
+        font-size: 25px;
+    }
+
+    .serviceListItem h2 {
+        font-size: 12px;
+    }
+
+    .innerpages .col-sm-6 .breadCrumbShareWrapper {
+        top: 0px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .stats-container {
+        padding-top: 20px !important;
+    }
+    .layoutWidhSideMenu .ds-sideNavigation-content {
+        position: fixed;
+        top: 59px;
+    }
+    .layoutWidhSideMenu .ds-sideNavigation-content .icon-tiny-arrow-down:first-of-type {
+        display: unset;
+    }
+}
+
+@media (max-width: 574.98px) {
+    .stats-sec .stats-container .stat-card {
+        width: 100%
+    }
+
+    .stats-sec .stats-container .stat-card::after {
+        display: none
+    }
+
+}

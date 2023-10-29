@@ -33,7 +33,7 @@ function selectMenu() {
         $('.dropdown-content-bond').hide();
         //unhides current item
         var currentIndex = $(this).prop('selectedIndex');
-        console.log(currentIndex);
+        // console.log(currentIndex);
         $(".dropdown-content-bond").eq(currentIndex).show();
     });
 }
@@ -82,7 +82,7 @@ $(document).ready(function () {
             menuLinks.each(function () {
                 const targetId = $(this).attr('href');
                 const targetSection = $(targetId);
-                console.log(targetSection.offset().top)
+                // console.log(targetSection.offset().top)
                 if (targetSection.offset().top - 80 <= currentScrollPos && (targetSection.offset().top - 80 + targetSection.height()) > currentScrollPos) {
                     $(this).parent().addClass('active');
                 } else {

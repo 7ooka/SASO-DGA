@@ -676,6 +676,127 @@ padding-top: 10px;
    background: #CF7A7A;
     color: #fff
 }
+
+.eventCardsV2 {
+    padding: 45px 22px;
+    min-height: 350px;
+    height: 100%;
+    border: 1px solid #CEE2E6;
+    position: relative;
+    transition: .25s
+}
+.eventCardsV2:hover {
+      box-shadow: 0 5px 30px rgba(35, 100, 90, 0.1);
+    
+}
+.eventCardsV2:hover .font20{
+    text-decoration: underline
+}
+.eventCardsV2:hover .readMoreCircular{
+       background: #0096B6;
+}
+.eventCardsV2:hover .readMoreCircular img{
+    filter: brightness(0) invert(1);
+}
+.eventCardsV2 .font20{
+    font-size: 20px;
+    color: #0096B6;
+    padding: 0;
+    border-radius: 0;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 30px;
+    height: calc(30px * 2);
+    margin-bottom: 20px;
+}
+.eventCardsV2 > a.addTo,
+.eventCardsV2 > p {
+    padding: 0;
+    display: flex;
+    align-items: center;
+       margin-bottom: 30px;
+}
+.eventCardsV2 > a.addTo img,
+.eventCardsV2 > p img {
+  width: 20px;
+}
+.eventCardsV2 > a.addTo span,
+.eventCardsV2 > p span {
+      font-size: 16px;
+        padding-right: 8px;
+    color: #585858;
+ 
+}
+.eventCardsV2 .readMoreCircular {
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0096B6;
+    border-radius: 50px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.mainBoxV2 {
+    border: 1px solid #CEE2E6;
+    min-height: 380px;
+    height: 100%;
+    transition: .25s;
+       display: inline-block;
+}
+.mainBoxV2:hover {
+  border: 1px solid #0096B6;
+}
+.mainBoxV2 .MBImg {
+    max-height: 240px;
+    margin-bottom: 40px;
+}
+.mainBoxV2 .MBImg img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.mainBoxV2 .MBTxt {
+    padding: 0 27px 8px;
+}
+.mainBoxV2 .MBTxt .font22{
+    font-size: 22px;
+    color: #464749 !important;
+    margin-bottom: 8px;
+    line-height: 33px
+}
+.mainBoxV2 .MBTxt span {
+    color: #585858;
+    font-size: 16px;
+}
+.mainBoxV2.mainBoxV2WithPragh {
+    min-height: 495px;
+}
+.mainBoxV2.mainBoxV2WithPragh .p16{
+    font-size: 16px;
+    color: #585858;
+    line-height: 24px;
+    padding: 0
+}
+.mainBoxV2.mainBoxV2WithPragh .readMoreMain {
+        display: inline-flex;
+    align-items: center;
+    padding: 18px 0 25px;
+    color: #0096B6;
+}
+.mainBoxV2.mainBoxV2WithPragh .readMoreMain:hove {
+     color: #0096B6;
+}
+.mainBoxV2.mainBoxV2WithPragh .readMoreMain img {
+    margin: 0 6px;
+}
 /* end cards */
 /* start jumping links page */
 .contentJumpingLinks {

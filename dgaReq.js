@@ -39,6 +39,22 @@ function selectMenu() {
 }
 
 
+
+// function fireRate() {
+//     if ($('.serveyV2').length) {
+        
+//         $(".serveyV2 .servey-a").click(function () {
+//             $('.serveyBoxRate').children().addClass('show-servey')
+//             return false
+//         })
+//         $(".closeRateUs").click(function () {
+//             $('.serveyBoxRate').children().removeClass('show-servey')
+//             return false
+//         })
+//     }
+// }
+
+
 $(document).ready(function () {
 
     $("#toRateEvent").click(function () {
@@ -56,9 +72,11 @@ $(document).ready(function () {
     if ($('.serveyV2').length) {
         $(".serveyV2 .servey-a").click(function () {
             $('.serveyBoxRate').children().addClass('show-servey')
+            return false
         })
         $(".closeRateUs").click(function () {
             $('.serveyBoxRate').children().removeClass('show-servey')
+            return false
         })
     }
     // AO jumping links
@@ -152,13 +170,3 @@ $(document).ready(function () {
 });
 
 
-
-
-
-
-
-
-
-$(document).ready(function () {
-
-});
